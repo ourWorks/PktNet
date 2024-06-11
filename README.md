@@ -12,10 +12,9 @@ All used imageIds are listed in "dataset/imageIds.txt" and the corresponding sub
 
 The raw data is preprocessed using the following steps:
 
-1). **Download and Convert**:
+1). **Convert**:
 
-- 2D image files are downloaded.
-- Convert these into 3D files containing the scalp and skull.
+- Convert these 2D image files into 3D files containing the scalp and skull.
 
 2). **Refine 3D Images**:
 
