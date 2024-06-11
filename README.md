@@ -4,9 +4,9 @@
 
 The ADNI dataset is used in our work.
 Due to regulations, we cannot directly provide the ADNI dataset. Anyone must apply for access through the ADNI website to obtain the required data.
-All used imageIds are listed in "dataset/imageIds.txt". After copying one of the IDs into the advanced search, you can search and download the image on the website <https://adni.loni.usc.edu>.
+All used imageIds are listed in "dataset/imageIds.txt" and the corresponding subjectIds are listed in the file "subjects_of_imageId.txt". After copying one of the IDs into the advanced search, you can search and download the image on the website <https://adni.loni.usc.edu>.
 
-**If you need to download all of the images listed in thae file at once, connect all of the imageIds with commas and paste them into the corresponding search box in advanced search on the ADNI website.**
+**If you need to download all of the images listed in the file at once, connect all of the imageIds with commas and paste them into the corresponding search box in advanced search on the ADNI website.**
 
 ## 2. preprocessing
 
