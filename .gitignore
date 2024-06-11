@@ -7,6 +7,9 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+
+# too many pths
+*.pth
 .Python
 build/
 develop-eggs/
