@@ -1,0 +1,3261 @@
+数据集：pureSMRI_1431_threeStage
+模型名称：PktNet
+使用优化器：Adam
+初始学习率：1e-05
+train_batch_size：32
+test_batch_size：8
+train_num_workers：8
+test_num_workers:4
+fiveFold_5 start:
+----------
+epoch 1/200
+[1/36][1/200], train_loss: 1.194843
+[2/36][1/200], train_loss: 1.032547
+[3/36][1/200], train_loss: 1.091633
+[4/36][1/200], train_loss: 1.126836
+[5/36][1/200], train_loss: 1.011994
+[6/36][1/200], train_loss: 1.142251
+[7/36][1/200], train_loss: 1.030774
+[8/36][1/200], train_loss: 1.275740
+[9/36][1/200], train_loss: 0.974830
+[10/36][1/200], train_loss: 1.196074
+[11/36][1/200], train_loss: 1.138672
+[12/36][1/200], train_loss: 0.943420
+[13/36][1/200], train_loss: 1.152861
+[14/36][1/200], train_loss: 1.035558
+[15/36][1/200], train_loss: 1.149607
+[16/36][1/200], train_loss: 1.057987
+[17/36][1/200], train_loss: 1.278850
+[18/36][1/200], train_loss: 1.138716
+[19/36][1/200], train_loss: 1.106526
+[20/36][1/200], train_loss: 1.177067
+[21/36][1/200], train_loss: 1.139439
+[22/36][1/200], train_loss: 1.059874
+[23/36][1/200], train_loss: 1.070753
+[24/36][1/200], train_loss: 1.012888
+[25/36][1/200], train_loss: 1.047725
+[26/36][1/200], train_loss: 0.906851
+[27/36][1/200], train_loss: 1.140310
+[28/36][1/200], train_loss: 1.113390
+[29/36][1/200], train_loss: 1.044920
+[30/36][1/200], train_loss: 1.006245
+[31/36][1/200], train_loss: 1.176292
+[32/36][1/200], train_loss: 1.071425
+[33/36][1/200], train_loss: 1.262931
+[34/36][1/200], train_loss: 1.220360
+[35/36][1/200], train_loss: 1.112140
+[36/36][1/200], train_loss: 1.166245
+ACC: 0.4541
+SEN: 0.3246
+SPE: 0.6599
+AUC: 0.5289
+F1_Score: 0.2765
+confusionMatrix：
+tensor([[480,  24,  77],
+        [257,  11,  36],
+        [229,   2,  29]], device='cuda:0')
+Epoch 1 average train loss: 1.105794
+Current epoch: 1
+ACC: 0.3741
+SEN: 0.2816
+SPE: 0.6269
+AUC: 0.4742
+F1_Score: 0.2595
+confusionMatrix：
+tensor([[91, 45,  9],
+        [58, 13,  5],
+        [58,  4,  3]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 1 current accuracy: 0.374126 
+Best accuracy: 0.374126 at epoch 1
+Eopch:1 train acc:0.45414847135543823, test acc:0.3741258680820465
+----------
+epoch 2/200
+[1/36][2/200], train_loss: 1.162546
+[2/36][2/200], train_loss: 1.105385
+[3/36][2/200], train_loss: 1.097440
+[4/36][2/200], train_loss: 1.083727
+[5/36][2/200], train_loss: 1.017459
+[6/36][2/200], train_loss: 1.115502
+[7/36][2/200], train_loss: 1.066956
+[8/36][2/200], train_loss: 1.186241
+[9/36][2/200], train_loss: 0.987980
+[10/36][2/200], train_loss: 1.128430
+[11/36][2/200], train_loss: 1.150613
+[12/36][2/200], train_loss: 0.937069
+[13/36][2/200], train_loss: 1.129181
+[14/36][2/200], train_loss: 1.019714
+[15/36][2/200], train_loss: 1.122008
+[16/36][2/200], train_loss: 1.042639
+[17/36][2/200], train_loss: 1.280779
+[18/36][2/200], train_loss: 1.130244
+[19/36][2/200], train_loss: 1.087537
+[20/36][2/200], train_loss: 1.190886
+[21/36][2/200], train_loss: 1.046229
+[22/36][2/200], train_loss: 1.013295
+[23/36][2/200], train_loss: 1.066406
+[24/36][2/200], train_loss: 0.955156
+[25/36][2/200], train_loss: 1.030933
+[26/36][2/200], train_loss: 0.897323
+[27/36][2/200], train_loss: 1.105801
+[28/36][2/200], train_loss: 1.082338
+[29/36][2/200], train_loss: 1.028363
+[30/36][2/200], train_loss: 0.972918
+[31/36][2/200], train_loss: 1.157889
+[32/36][2/200], train_loss: 1.048866
+[33/36][2/200], train_loss: 1.217074
+[34/36][2/200], train_loss: 1.191572
+[35/36][2/200], train_loss: 1.057671
+[36/36][2/200], train_loss: 1.112091
+ACC: 0.4079
+SEN: 0.2909
+SPE: 0.6453
+AUC: 0.5240
+F1_Score: 0.2579
+confusionMatrix：
+tensor([[429,  29, 123],
+        [227,  21,  56],
+        [233,  10,  17]], device='cuda:0')
+Epoch 2 average train loss: 1.084063
+Current epoch: 2
+ACC: 0.3531
+SEN: 0.3270
+SPE: 0.6523
+AUC: 0.5538
+F1_Score: 0.2974
+confusionMatrix：
+tensor([[57, 71, 17],
+        [29, 40,  7],
+        [43, 18,  4]], device='cuda:0')
+Current end epoch: 2 current accuracy: 0.353147 
+Best accuracy: 0.374126 at epoch 1
+Eopch:2 train acc:0.40786024928092957, test acc:0.35314685106277466
+----------
+epoch 3/200
+[1/36][3/200], train_loss: 1.146986
+[2/36][3/200], train_loss: 1.083133
+[3/36][3/200], train_loss: 1.074332
+[4/36][3/200], train_loss: 1.049632
+[5/36][3/200], train_loss: 0.991001
+[6/36][3/200], train_loss: 1.072945
+[7/36][3/200], train_loss: 1.024882
+[8/36][3/200], train_loss: 1.160978
+[9/36][3/200], train_loss: 0.948031
+[10/36][3/200], train_loss: 1.095094
+[11/36][3/200], train_loss: 1.106890
+[12/36][3/200], train_loss: 0.906794
+[13/36][3/200], train_loss: 1.080528
+[14/36][3/200], train_loss: 0.977475
+[15/36][3/200], train_loss: 1.085223
+[16/36][3/200], train_loss: 0.999239
+[17/36][3/200], train_loss: 1.256491
+[18/36][3/200], train_loss: 1.084822
+[19/36][3/200], train_loss: 1.005250
+[20/36][3/200], train_loss: 1.143302
+[21/36][3/200], train_loss: 1.057366
+[22/36][3/200], train_loss: 0.959025
+[23/36][3/200], train_loss: 0.986313
+[24/36][3/200], train_loss: 0.947495
+[25/36][3/200], train_loss: 1.033752
+[26/36][3/200], train_loss: 0.813589
+[27/36][3/200], train_loss: 1.109267
+[28/36][3/200], train_loss: 1.048005
+[29/36][3/200], train_loss: 0.962647
+[30/36][3/200], train_loss: 0.865493
+[31/36][3/200], train_loss: 1.081759
+[32/36][3/200], train_loss: 1.038406
+[33/36][3/200], train_loss: 1.226915
+[34/36][3/200], train_loss: 1.187403
+[35/36][3/200], train_loss: 1.009317
+[36/36][3/200], train_loss: 1.129104
+ACC: 0.4437
+SEN: 0.3366
+SPE: 0.6717
+AUC: 0.5861
+F1_Score: 0.3211
+confusionMatrix：
+tensor([[428,  61,  92],
+        [191,  62,  51],
+        [213,  29,  18]], device='cuda:0')
+Epoch 3 average train loss: 1.048580
+Current epoch: 3
+ACC: 0.5035
+SEN: 0.3911
+SPE: 0.6993
+AUC: 0.7035
+F1_Score: 0.3743
+confusionMatrix：
+tensor([[117,  15,  13],
+        [ 47,  22,   7],
+        [ 52,   8,   5]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 3 current accuracy: 0.503497 
+Best accuracy: 0.503497 at epoch 3
+Eopch:3 train acc:0.4436681270599365, test acc:0.503496527671814
+----------
+epoch 4/200
+[1/36][4/200], train_loss: 1.077918
+[2/36][4/200], train_loss: 0.987734
+[3/36][4/200], train_loss: 1.005005
+[4/36][4/200], train_loss: 1.031831
+[5/36][4/200], train_loss: 1.017645
+[6/36][4/200], train_loss: 1.031448
+[7/36][4/200], train_loss: 0.991985
+[8/36][4/200], train_loss: 1.097190
+[9/36][4/200], train_loss: 0.902435
+[10/36][4/200], train_loss: 1.041166
+[11/36][4/200], train_loss: 1.000030
+[12/36][4/200], train_loss: 0.889698
+[13/36][4/200], train_loss: 1.007625
+[14/36][4/200], train_loss: 0.919126
+[15/36][4/200], train_loss: 1.056891
+[16/36][4/200], train_loss: 0.939726
+[17/36][4/200], train_loss: 1.222791
+[18/36][4/200], train_loss: 1.040381
+[19/36][4/200], train_loss: 0.929484
+[20/36][4/200], train_loss: 1.066487
+[21/36][4/200], train_loss: 0.988890
+[22/36][4/200], train_loss: 0.865104
+[23/36][4/200], train_loss: 0.927897
+[24/36][4/200], train_loss: 0.948337
+[25/36][4/200], train_loss: 1.037009
+[26/36][4/200], train_loss: 0.766381
+[27/36][4/200], train_loss: 0.958055
+[28/36][4/200], train_loss: 0.899514
+[29/36][4/200], train_loss: 0.964877
+[30/36][4/200], train_loss: 0.810692
+[31/36][4/200], train_loss: 1.025153
+[32/36][4/200], train_loss: 0.968059
+[33/36][4/200], train_loss: 1.193229
+[34/36][4/200], train_loss: 1.099444
+[35/36][4/200], train_loss: 0.875368
+[36/36][4/200], train_loss: 0.984371
+ACC: 0.5170
+SEN: 0.4258
+SPE: 0.7213
+AUC: 0.6633
+F1_Score: 0.4245
+confusionMatrix：
+tensor([[440,  50,  91],
+        [139, 116,  49],
+        [181,  43,  36]], device='cuda:0')
+Epoch 4 average train loss: 0.988027
+Current epoch: 4
+ACC: 0.4476
+SEN: 0.5161
+SPE: 0.7500
+AUC: 0.7389
+F1_Score: 0.4411
+confusionMatrix：
+tensor([[32, 92, 21],
+        [ 0, 67,  9],
+        [ 2, 34, 29]], device='cuda:0')
+Current end epoch: 4 current accuracy: 0.447552 
+Best accuracy: 0.503497 at epoch 3
+Eopch:4 train acc:0.5170305967330933, test acc:0.4475524425506592
+----------
+epoch 5/200
+[1/36][5/200], train_loss: 1.117612
+[2/36][5/200], train_loss: 0.960325
+[3/36][5/200], train_loss: 0.985638
+[4/36][5/200], train_loss: 1.101677
+[5/36][5/200], train_loss: 1.134986
+[6/36][5/200], train_loss: 1.070611
+[7/36][5/200], train_loss: 0.879338
+[8/36][5/200], train_loss: 1.061686
+[9/36][5/200], train_loss: 0.848112
+[10/36][5/200], train_loss: 1.067093
+[11/36][5/200], train_loss: 0.913249
+[12/36][5/200], train_loss: 0.907315
+[13/36][5/200], train_loss: 0.985443
+[14/36][5/200], train_loss: 0.902835
+[15/36][5/200], train_loss: 1.076048
+[16/36][5/200], train_loss: 0.918790
+[17/36][5/200], train_loss: 1.194092
+[18/36][5/200], train_loss: 1.047899
+[19/36][5/200], train_loss: 0.919720
+[20/36][5/200], train_loss: 1.053719
+[21/36][5/200], train_loss: 0.966075
+[22/36][5/200], train_loss: 0.845579
+[23/36][5/200], train_loss: 0.910939
+[24/36][5/200], train_loss: 0.918070
+[25/36][5/200], train_loss: 1.029261
+[26/36][5/200], train_loss: 0.744830
+[27/36][5/200], train_loss: 0.938957
+[28/36][5/200], train_loss: 0.880960
+[29/36][5/200], train_loss: 0.927107
+[30/36][5/200], train_loss: 0.794541
+[31/36][5/200], train_loss: 1.010931
+[32/36][5/200], train_loss: 0.933013
+[33/36][5/200], train_loss: 1.142677
+[34/36][5/200], train_loss: 1.082640
+[35/36][5/200], train_loss: 0.866322
+[36/36][5/200], train_loss: 1.003964
+ACC: 0.5354
+SEN: 0.4454
+SPE: 0.7345
+AUC: 0.6780
+F1_Score: 0.4402
+confusionMatrix：
+tensor([[448,  68,  65],
+        [134, 125,  45],
+        [158,  62,  40]], device='cuda:0')
+Epoch 5 average train loss: 0.976168
+Current epoch: 5
+ACC: 0.5944
+SEN: 0.5915
+SPE: 0.8039
+AUC: 0.7597
+F1_Score: 0.5613
+confusionMatrix：
+tensor([[82, 47, 16],
+        [ 2, 65,  9],
+        [16, 26, 23]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 5 current accuracy: 0.594406 
+Best accuracy: 0.594406 at epoch 5
+Eopch:5 train acc:0.5353711843490601, test acc:0.5944055914878845
+----------
+epoch 6/200
+[1/36][6/200], train_loss: 1.044314
+[2/36][6/200], train_loss: 0.931596
+[3/36][6/200], train_loss: 0.978976
+[4/36][6/200], train_loss: 1.021891
+[5/36][6/200], train_loss: 1.057681
+[6/36][6/200], train_loss: 0.987353
+[7/36][6/200], train_loss: 0.861750
+[8/36][6/200], train_loss: 1.009756
+[9/36][6/200], train_loss: 0.804528
+[10/36][6/200], train_loss: 1.011314
+[11/36][6/200], train_loss: 0.866755
+[12/36][6/200], train_loss: 0.886614
+[13/36][6/200], train_loss: 0.930580
+[14/36][6/200], train_loss: 0.830264
+[15/36][6/200], train_loss: 1.022391
+[16/36][6/200], train_loss: 0.884815
+[17/36][6/200], train_loss: 1.178774
+[18/36][6/200], train_loss: 0.983581
+[19/36][6/200], train_loss: 0.868442
+[20/36][6/200], train_loss: 0.981909
+[21/36][6/200], train_loss: 0.939949
+[22/36][6/200], train_loss: 0.797291
+[23/36][6/200], train_loss: 0.869141
+[24/36][6/200], train_loss: 0.831480
+[25/36][6/200], train_loss: 1.045839
+[26/36][6/200], train_loss: 0.695889
+[27/36][6/200], train_loss: 0.928293
+[28/36][6/200], train_loss: 0.833647
+[29/36][6/200], train_loss: 0.868758
+[30/36][6/200], train_loss: 0.760422
+[31/36][6/200], train_loss: 0.990418
+[32/36][6/200], train_loss: 0.870782
+[33/36][6/200], train_loss: 1.058482
+[34/36][6/200], train_loss: 1.033295
+[35/36][6/200], train_loss: 0.798190
+[36/36][6/200], train_loss: 0.980864
+ACC: 0.5616
+SEN: 0.4808
+SPE: 0.7528
+AUC: 0.7145
+F1_Score: 0.4785
+confusionMatrix：
+tensor([[447,  66,  68],
+        [116, 145,  43],
+        [143,  66,  51]], device='cuda:0')
+Epoch 6 average train loss: 0.929056
+Current epoch: 6
+ACC: 0.6049
+SEN: 0.5887
+SPE: 0.8015
+AUC: 0.7800
+F1_Score: 0.5705
+confusionMatrix：
+tensor([[90, 40, 15],
+        [ 9, 59,  8],
+        [18, 23, 24]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 6 current accuracy: 0.604895 
+Best accuracy: 0.604895 at epoch 6
+Eopch:6 train acc:0.5615720748901367, test acc:0.6048951148986816
+----------
+epoch 7/200
+[1/36][7/200], train_loss: 0.973863
+[2/36][7/200], train_loss: 0.871589
+[3/36][7/200], train_loss: 0.941978
+[4/36][7/200], train_loss: 0.985057
+[5/36][7/200], train_loss: 1.050498
+[6/36][7/200], train_loss: 0.935509
+[7/36][7/200], train_loss: 0.801939
+[8/36][7/200], train_loss: 0.936434
+[9/36][7/200], train_loss: 0.769628
+[10/36][7/200], train_loss: 0.984321
+[11/36][7/200], train_loss: 0.819148
+[12/36][7/200], train_loss: 0.839981
+[13/36][7/200], train_loss: 0.873313
+[14/36][7/200], train_loss: 0.757441
+[15/36][7/200], train_loss: 0.945230
+[16/36][7/200], train_loss: 0.844049
+[17/36][7/200], train_loss: 1.128278
+[18/36][7/200], train_loss: 0.930215
+[19/36][7/200], train_loss: 0.829854
+[20/36][7/200], train_loss: 0.914830
+[21/36][7/200], train_loss: 0.923889
+[22/36][7/200], train_loss: 0.774552
+[23/36][7/200], train_loss: 0.845178
+[24/36][7/200], train_loss: 0.744345
+[25/36][7/200], train_loss: 1.040225
+[26/36][7/200], train_loss: 0.669046
+[27/36][7/200], train_loss: 0.933670
+[28/36][7/200], train_loss: 0.820320
+[29/36][7/200], train_loss: 0.809287
+[30/36][7/200], train_loss: 0.728628
+[31/36][7/200], train_loss: 0.972085
+[32/36][7/200], train_loss: 0.830786
+[33/36][7/200], train_loss: 1.010452
+[34/36][7/200], train_loss: 0.980206
+[35/36][7/200], train_loss: 0.755144
+[36/36][7/200], train_loss: 0.984179
+ACC: 0.5747
+SEN: 0.5017
+SPE: 0.7628
+AUC: 0.7437
+F1_Score: 0.5001
+confusionMatrix：
+tensor([[442,  78,  61],
+        [110, 155,  39],
+        [127,  72,  61]], device='cuda:0')
+Epoch 7 average train loss: 0.887643
+Current epoch: 7
+ACC: 0.6329
+SEN: 0.6037
+SPE: 0.8086
+AUC: 0.7930
+F1_Score: 0.5942
+confusionMatrix：
+tensor([[100,  31,  14],
+        [ 13,  56,   7],
+        [ 21,  19,  25]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 7 current accuracy: 0.632867 
+Best accuracy: 0.632867 at epoch 7
+Eopch:7 train acc:0.5746724605560303, test acc:0.632867157459259
+----------
+epoch 8/200
+[1/36][8/200], train_loss: 0.882559
+[2/36][8/200], train_loss: 0.815113
+[3/36][8/200], train_loss: 0.928408
+[4/36][8/200], train_loss: 0.971955
+[5/36][8/200], train_loss: 0.955592
+[6/36][8/200], train_loss: 0.818613
+[7/36][8/200], train_loss: 0.744897
+[8/36][8/200], train_loss: 0.912442
+[9/36][8/200], train_loss: 0.731210
+[10/36][8/200], train_loss: 0.994355
+[11/36][8/200], train_loss: 0.806022
+[12/36][8/200], train_loss: 0.841059
+[13/36][8/200], train_loss: 0.868938
+[14/36][8/200], train_loss: 0.723331
+[15/36][8/200], train_loss: 0.881689
+[16/36][8/200], train_loss: 0.820724
+[17/36][8/200], train_loss: 1.107562
+[18/36][8/200], train_loss: 0.874756
+[19/36][8/200], train_loss: 0.772886
+[20/36][8/200], train_loss: 0.859037
+[21/36][8/200], train_loss: 0.893114
+[22/36][8/200], train_loss: 0.747267
+[23/36][8/200], train_loss: 0.821334
+[24/36][8/200], train_loss: 0.680113
+[25/36][8/200], train_loss: 1.032379
+[26/36][8/200], train_loss: 0.643323
+[27/36][8/200], train_loss: 0.903703
+[28/36][8/200], train_loss: 0.786266
+[29/36][8/200], train_loss: 0.775749
+[30/36][8/200], train_loss: 0.698247
+[31/36][8/200], train_loss: 0.918203
+[32/36][8/200], train_loss: 0.766506
+[33/36][8/200], train_loss: 0.951629
+[34/36][8/200], train_loss: 0.931021
+[35/36][8/200], train_loss: 0.695198
+[36/36][8/200], train_loss: 0.941623
+ACC: 0.6105
+SEN: 0.5460
+SPE: 0.7850
+AUC: 0.7704
+F1_Score: 0.5465
+confusionMatrix：
+tensor([[449,  73,  59],
+        [ 93, 173,  38],
+        [113,  70,  77]], device='cuda:0')
+Epoch 8 average train loss: 0.847134
+Current epoch: 8
+ACC: 0.6538
+SEN: 0.6267
+SPE: 0.8179
+AUC: 0.8042
+F1_Score: 0.6217
+confusionMatrix：
+tensor([[103,  29,  13],
+        [ 15,  55,   6],
+        [ 19,  17,  29]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 8 current accuracy: 0.653846 
+Best accuracy: 0.653846 at epoch 8
+Eopch:8 train acc:0.6104803681373596, test acc:0.6538461446762085
+----------
+epoch 9/200
+[1/36][9/200], train_loss: 0.808380
+[2/36][9/200], train_loss: 0.769900
+[3/36][9/200], train_loss: 0.891389
+[4/36][9/200], train_loss: 0.942046
+[5/36][9/200], train_loss: 0.927463
+[6/36][9/200], train_loss: 0.745471
+[7/36][9/200], train_loss: 0.693643
+[8/36][9/200], train_loss: 0.858778
+[9/36][9/200], train_loss: 0.705694
+[10/36][9/200], train_loss: 0.981971
+[11/36][9/200], train_loss: 0.770368
+[12/36][9/200], train_loss: 0.814741
+[13/36][9/200], train_loss: 0.814753
+[14/36][9/200], train_loss: 0.665862
+[15/36][9/200], train_loss: 0.815739
+[16/36][9/200], train_loss: 0.792922
+[17/36][9/200], train_loss: 1.046215
+[18/36][9/200], train_loss: 0.831185
+[19/36][9/200], train_loss: 0.728478
+[20/36][9/200], train_loss: 0.819048
+[21/36][9/200], train_loss: 0.840600
+[22/36][9/200], train_loss: 0.716430
+[23/36][9/200], train_loss: 0.790994
+[24/36][9/200], train_loss: 0.608730
+[25/36][9/200], train_loss: 1.008221
+[26/36][9/200], train_loss: 0.618264
+[27/36][9/200], train_loss: 0.877315
+[28/36][9/200], train_loss: 0.764618
+[29/36][9/200], train_loss: 0.726496
+[30/36][9/200], train_loss: 0.664199
+[31/36][9/200], train_loss: 0.867943
+[32/36][9/200], train_loss: 0.703835
+[33/36][9/200], train_loss: 0.894246
+[34/36][9/200], train_loss: 0.845468
+[35/36][9/200], train_loss: 0.632633
+[36/36][9/200], train_loss: 0.910375
+ACC: 0.6288
+SEN: 0.5713
+SPE: 0.7977
+AUC: 0.7961
+F1_Score: 0.5722
+confusionMatrix：
+tensor([[449,  70,  62],
+        [ 84, 182,  38],
+        [100,  71,  89]], device='cuda:0')
+Epoch 9 average train loss: 0.802623
+Current epoch: 9
+ACC: 0.6608
+SEN: 0.6398
+SPE: 0.8245
+AUC: 0.8162
+F1_Score: 0.6328
+confusionMatrix：
+tensor([[102,  29,  14],
+        [ 12,  55,   9],
+        [ 18,  15,  32]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 9 current accuracy: 0.660839 
+Best accuracy: 0.660839 at epoch 9
+Eopch:9 train acc:0.6288209557533264, test acc:0.6608391404151917
+----------
+epoch 10/200
+[1/36][10/200], train_loss: 0.736555
+[2/36][10/200], train_loss: 0.729972
+[3/36][10/200], train_loss: 0.858320
+[4/36][10/200], train_loss: 0.858321
+[5/36][10/200], train_loss: 0.846732
+[6/36][10/200], train_loss: 0.689386
+[7/36][10/200], train_loss: 0.626448
+[8/36][10/200], train_loss: 0.816606
+[9/36][10/200], train_loss: 0.694636
+[10/36][10/200], train_loss: 0.980589
+[11/36][10/200], train_loss: 0.750438
+[12/36][10/200], train_loss: 0.777724
+[13/36][10/200], train_loss: 0.773916
+[14/36][10/200], train_loss: 0.605427
+[15/36][10/200], train_loss: 0.758874
+[16/36][10/200], train_loss: 0.794596
+[17/36][10/200], train_loss: 0.975098
+[18/36][10/200], train_loss: 0.807240
+[19/36][10/200], train_loss: 0.663017
+[20/36][10/200], train_loss: 0.787625
+[21/36][10/200], train_loss: 0.741488
+[22/36][10/200], train_loss: 0.677676
+[23/36][10/200], train_loss: 0.768142
+[24/36][10/200], train_loss: 0.537601
+[25/36][10/200], train_loss: 0.991946
+[26/36][10/200], train_loss: 0.601032
+[27/36][10/200], train_loss: 0.791936
+[28/36][10/200], train_loss: 0.709553
+[29/36][10/200], train_loss: 0.686482
+[30/36][10/200], train_loss: 0.614723
+[31/36][10/200], train_loss: 0.787427
+[32/36][10/200], train_loss: 0.629244
+[33/36][10/200], train_loss: 0.853404
+[34/36][10/200], train_loss: 0.770145
+[35/36][10/200], train_loss: 0.557344
+[36/36][10/200], train_loss: 0.837186
+ACC: 0.6699
+SEN: 0.6215
+SPE: 0.8214
+AUC: 0.8237
+F1_Score: 0.6242
+confusionMatrix：
+tensor([[460,  65,  56],
+        [ 73, 194,  37],
+        [ 84,  63, 113]], device='cuda:0')
+Epoch 10 average train loss: 0.752412
+Current epoch: 10
+ACC: 0.6748
+SEN: 0.6666
+SPE: 0.8379
+AUC: 0.8299
+F1_Score: 0.6539
+confusionMatrix：
+tensor([[99, 32, 14],
+        [ 9, 58,  9],
+        [12, 17, 36]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 10 current accuracy: 0.674825 
+Best accuracy: 0.674825 at epoch 10
+Eopch:10 train acc:0.6698690056800842, test acc:0.6748251914978027
+----------
+epoch 11/200
+[1/36][11/200], train_loss: 0.690417
+[2/36][11/200], train_loss: 0.698628
+[3/36][11/200], train_loss: 0.795579
+[4/36][11/200], train_loss: 0.784812
+[5/36][11/200], train_loss: 0.840166
+[6/36][11/200], train_loss: 0.660862
+[7/36][11/200], train_loss: 0.562873
+[8/36][11/200], train_loss: 0.769066
+[9/36][11/200], train_loss: 0.721927
+[10/36][11/200], train_loss: 0.960698
+[11/36][11/200], train_loss: 0.694953
+[12/36][11/200], train_loss: 0.695828
+[13/36][11/200], train_loss: 0.736354
+[14/36][11/200], train_loss: 0.560449
+[15/36][11/200], train_loss: 0.708858
+[16/36][11/200], train_loss: 0.785386
+[17/36][11/200], train_loss: 0.905352
+[18/36][11/200], train_loss: 0.779116
+[19/36][11/200], train_loss: 0.593428
+[20/36][11/200], train_loss: 0.754590
+[21/36][11/200], train_loss: 0.626697
+[22/36][11/200], train_loss: 0.669486
+[23/36][11/200], train_loss: 0.736526
+[24/36][11/200], train_loss: 0.489553
+[25/36][11/200], train_loss: 0.951100
+[26/36][11/200], train_loss: 0.580812
+[27/36][11/200], train_loss: 0.702345
+[28/36][11/200], train_loss: 0.640191
+[29/36][11/200], train_loss: 0.630802
+[30/36][11/200], train_loss: 0.559414
+[31/36][11/200], train_loss: 0.708391
+[32/36][11/200], train_loss: 0.566660
+[33/36][11/200], train_loss: 0.815234
+[34/36][11/200], train_loss: 0.706312
+[35/36][11/200], train_loss: 0.525204
+[36/36][11/200], train_loss: 0.802878
+ACC: 0.6891
+SEN: 0.6473
+SPE: 0.8344
+AUC: 0.8467
+F1_Score: 0.6488
+confusionMatrix：
+tensor([[461,  70,  50],
+        [ 63, 203,  38],
+        [ 72,  63, 125]], device='cuda:0')
+Epoch 11 average train loss: 0.705860
+Current epoch: 11
+ACC: 0.6783
+SEN: 0.6710
+SPE: 0.8402
+AUC: 0.8437
+F1_Score: 0.6577
+confusionMatrix：
+tensor([[99, 33, 13],
+        [ 8, 59,  9],
+        [12, 17, 36]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 11 current accuracy: 0.678322 
+Best accuracy: 0.678322 at epoch 11
+Eopch:11 train acc:0.6890829801559448, test acc:0.6783216595649719
+----------
+epoch 12/200
+[1/36][12/200], train_loss: 0.610411
+[2/36][12/200], train_loss: 0.613335
+[3/36][12/200], train_loss: 0.737502
+[4/36][12/200], train_loss: 0.865511
+[5/36][12/200], train_loss: 0.753695
+[6/36][12/200], train_loss: 0.519135
+[7/36][12/200], train_loss: 0.537769
+[8/36][12/200], train_loss: 0.795938
+[9/36][12/200], train_loss: 0.684443
+[10/36][12/200], train_loss: 0.944857
+[11/36][12/200], train_loss: 0.773693
+[12/36][12/200], train_loss: 0.663651
+[13/36][12/200], train_loss: 0.714332
+[14/36][12/200], train_loss: 0.606789
+[15/36][12/200], train_loss: 0.681043
+[16/36][12/200], train_loss: 0.761219
+[17/36][12/200], train_loss: 0.959530
+[18/36][12/200], train_loss: 0.742002
+[19/36][12/200], train_loss: 0.509342
+[20/36][12/200], train_loss: 0.822418
+[21/36][12/200], train_loss: 0.546891
+[22/36][12/200], train_loss: 0.687171
+[23/36][12/200], train_loss: 0.703283
+[24/36][12/200], train_loss: 0.513445
+[25/36][12/200], train_loss: 0.929262
+[26/36][12/200], train_loss: 0.529330
+[27/36][12/200], train_loss: 0.703826
+[28/36][12/200], train_loss: 0.596466
+[29/36][12/200], train_loss: 0.601875
+[30/36][12/200], train_loss: 0.560998
+[31/36][12/200], train_loss: 0.662255
+[32/36][12/200], train_loss: 0.528887
+[33/36][12/200], train_loss: 0.802612
+[34/36][12/200], train_loss: 0.677531
+[35/36][12/200], train_loss: 0.502192
+[36/36][12/200], train_loss: 0.773384
+ACC: 0.7004
+SEN: 0.6559
+SPE: 0.8382
+AUC: 0.8567
+F1_Score: 0.6609
+confusionMatrix：
+tensor([[475,  64,  42],
+        [ 74, 193,  37],
+        [ 67,  59, 134]], device='cuda:0')
+Epoch 12 average train loss: 0.683778
+Current epoch: 12
+ACC: 0.6958
+SEN: 0.6974
+SPE: 0.8497
+AUC: 0.8564
+F1_Score: 0.6821
+confusionMatrix：
+tensor([[99, 33, 13],
+        [ 8, 58, 10],
+        [10, 13, 42]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 12 current accuracy: 0.695804 
+Best accuracy: 0.695804 at epoch 12
+Eopch:12 train acc:0.7004366517066956, test acc:0.6958041787147522
+----------
+epoch 13/200
+[1/36][13/200], train_loss: 0.565216
+[2/36][13/200], train_loss: 0.598606
+[3/36][13/200], train_loss: 0.724996
+[4/36][13/200], train_loss: 0.679571
+[5/36][13/200], train_loss: 0.711236
+[6/36][13/200], train_loss: 0.576443
+[7/36][13/200], train_loss: 0.466411
+[8/36][13/200], train_loss: 0.729406
+[9/36][13/200], train_loss: 0.747025
+[10/36][13/200], train_loss: 0.894091
+[11/36][13/200], train_loss: 0.669051
+[12/36][13/200], train_loss: 0.591989
+[13/36][13/200], train_loss: 0.691382
+[14/36][13/200], train_loss: 0.536538
+[15/36][13/200], train_loss: 0.649677
+[16/36][13/200], train_loss: 0.751855
+[17/36][13/200], train_loss: 0.850317
+[18/36][13/200], train_loss: 0.688784
+[19/36][13/200], train_loss: 0.455515
+[20/36][13/200], train_loss: 0.768235
+[21/36][13/200], train_loss: 0.476942
+[22/36][13/200], train_loss: 0.650970
+[23/36][13/200], train_loss: 0.648402
+[24/36][13/200], train_loss: 0.438167
+[25/36][13/200], train_loss: 0.880280
+[26/36][13/200], train_loss: 0.494035
+[27/36][13/200], train_loss: 0.623804
+[28/36][13/200], train_loss: 0.548182
+[29/36][13/200], train_loss: 0.558217
+[30/36][13/200], train_loss: 0.517558
+[31/36][13/200], train_loss: 0.578838
+[32/36][13/200], train_loss: 0.471274
+[33/36][13/200], train_loss: 0.753812
+[34/36][13/200], train_loss: 0.615412
+[35/36][13/200], train_loss: 0.485116
+[36/36][13/200], train_loss: 0.738977
+ACC: 0.7362
+SEN: 0.6983
+SPE: 0.8589
+AUC: 0.8777
+F1_Score: 0.7024
+confusionMatrix：
+tensor([[485,  62,  34],
+        [ 59, 210,  35],
+        [ 58,  54, 148]], device='cuda:0')
+Epoch 13 average train loss: 0.634065
+Current epoch: 13
+ACC: 0.6923
+SEN: 0.6922
+SPE: 0.8489
+AUC: 0.8664
+F1_Score: 0.6777
+confusionMatrix：
+tensor([[99, 34, 12],
+        [ 8, 58, 10],
+        [ 9, 15, 41]], device='cuda:0')
+Current end epoch: 13 current accuracy: 0.692308 
+Best accuracy: 0.695804 at epoch 12
+Eopch:13 train acc:0.7362445592880249, test acc:0.692307710647583
+----------
+epoch 14/200
+[1/36][14/200], train_loss: 0.496352
+[2/36][14/200], train_loss: 0.532416
+[3/36][14/200], train_loss: 0.670878
+[4/36][14/200], train_loss: 0.640014
+[5/36][14/200], train_loss: 0.674995
+[6/36][14/200], train_loss: 0.495765
+[7/36][14/200], train_loss: 0.412051
+[8/36][14/200], train_loss: 0.630993
+[9/36][14/200], train_loss: 0.713663
+[10/36][14/200], train_loss: 0.874671
+[11/36][14/200], train_loss: 0.594382
+[12/36][14/200], train_loss: 0.554659
+[13/36][14/200], train_loss: 0.681572
+[14/36][14/200], train_loss: 0.484514
+[15/36][14/200], train_loss: 0.579701
+[16/36][14/200], train_loss: 0.745478
+[17/36][14/200], train_loss: 0.756767
+[18/36][14/200], train_loss: 0.639257
+[19/36][14/200], train_loss: 0.418839
+[20/36][14/200], train_loss: 0.735752
+[21/36][14/200], train_loss: 0.416031
+[22/36][14/200], train_loss: 0.652960
+[23/36][14/200], train_loss: 0.610179
+[24/36][14/200], train_loss: 0.388528
+[25/36][14/200], train_loss: 0.785640
+[26/36][14/200], train_loss: 0.435151
+[27/36][14/200], train_loss: 0.599683
+[28/36][14/200], train_loss: 0.503084
+[29/36][14/200], train_loss: 0.518940
+[30/36][14/200], train_loss: 0.506307
+[31/36][14/200], train_loss: 0.541504
+[32/36][14/200], train_loss: 0.422481
+[33/36][14/200], train_loss: 0.709714
+[34/36][14/200], train_loss: 0.562801
+[35/36][14/200], train_loss: 0.474379
+[36/36][14/200], train_loss: 0.699393
+ACC: 0.7590
+SEN: 0.7254
+SPE: 0.8712
+AUC: 0.8956
+F1_Score: 0.7299
+confusionMatrix：
+tensor([[493,  60,  28],
+        [ 58, 213,  33],
+        [ 48,  49, 163]], device='cuda:0')
+Epoch 14 average train loss: 0.587764
+Current epoch: 14
+ACC: 0.7063
+SEN: 0.7120
+SPE: 0.8567
+AUC: 0.8807
+F1_Score: 0.6954
+confusionMatrix：
+tensor([[99, 34, 12],
+        [ 8, 59,  9],
+        [ 7, 14, 44]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 14 current accuracy: 0.706294 
+Best accuracy: 0.706294 at epoch 14
+Eopch:14 train acc:0.7589519619941711, test acc:0.7062937021255493
+----------
+epoch 15/200
+[1/36][15/200], train_loss: 0.432114
+[2/36][15/200], train_loss: 0.492923
+[3/36][15/200], train_loss: 0.648072
+[4/36][15/200], train_loss: 0.588578
+[5/36][15/200], train_loss: 0.621930
+[6/36][15/200], train_loss: 0.480607
+[7/36][15/200], train_loss: 0.376312
+[8/36][15/200], train_loss: 0.594823
+[9/36][15/200], train_loss: 0.704126
+[10/36][15/200], train_loss: 0.818050
+[11/36][15/200], train_loss: 0.553189
+[12/36][15/200], train_loss: 0.521970
+[13/36][15/200], train_loss: 0.671993
+[14/36][15/200], train_loss: 0.467777
+[15/36][15/200], train_loss: 0.534037
+[16/36][15/200], train_loss: 0.655424
+[17/36][15/200], train_loss: 0.727268
+[18/36][15/200], train_loss: 0.617064
+[19/36][15/200], train_loss: 0.392024
+[20/36][15/200], train_loss: 0.698259
+[21/36][15/200], train_loss: 0.392155
+[22/36][15/200], train_loss: 0.621046
+[23/36][15/200], train_loss: 0.553957
+[24/36][15/200], train_loss: 0.371463
+[25/36][15/200], train_loss: 0.762247
+[26/36][15/200], train_loss: 0.411418
+[27/36][15/200], train_loss: 0.549581
+[28/36][15/200], train_loss: 0.467648
+[29/36][15/200], train_loss: 0.478686
+[30/36][15/200], train_loss: 0.476681
+[31/36][15/200], train_loss: 0.468262
+[32/36][15/200], train_loss: 0.402719
+[33/36][15/200], train_loss: 0.668524
+[34/36][15/200], train_loss: 0.500268
+[35/36][15/200], train_loss: 0.435102
+[36/36][15/200], train_loss: 0.694238
+ACC: 0.7755
+SEN: 0.7436
+SPE: 0.8813
+AUC: 0.9084
+F1_Score: 0.7467
+confusionMatrix：
+tensor([[499,  54,  28],
+        [ 47, 223,  34],
+        [ 46,  48, 166]], device='cuda:0')
+Epoch 15 average train loss: 0.551404
+Current epoch: 15
+ACC: 0.7028
+SEN: 0.7146
+SPE: 0.8566
+AUC: 0.8851
+F1_Score: 0.6949
+confusionMatrix：
+tensor([[96, 37, 12],
+        [ 7, 60,  9],
+        [ 6, 14, 45]], device='cuda:0')
+Current end epoch: 15 current accuracy: 0.702797 
+Best accuracy: 0.706294 at epoch 14
+Eopch:15 train acc:0.7755458354949951, test acc:0.7027971744537354
+----------
+epoch 16/200
+[1/36][16/200], train_loss: 0.383909
+[2/36][16/200], train_loss: 0.456901
+[3/36][16/200], train_loss: 0.604234
+[4/36][16/200], train_loss: 0.512571
+[5/36][16/200], train_loss: 0.516564
+[6/36][16/200], train_loss: 0.417482
+[7/36][16/200], train_loss: 0.351115
+[8/36][16/200], train_loss: 0.541052
+[9/36][16/200], train_loss: 0.662544
+[10/36][16/200], train_loss: 0.758409
+[11/36][16/200], train_loss: 0.523163
+[12/36][16/200], train_loss: 0.441464
+[13/36][16/200], train_loss: 0.649203
+[14/36][16/200], train_loss: 0.482285
+[15/36][16/200], train_loss: 0.494998
+[16/36][16/200], train_loss: 0.619192
+[17/36][16/200], train_loss: 0.679730
+[18/36][16/200], train_loss: 0.558490
+[19/36][16/200], train_loss: 0.330331
+[20/36][16/200], train_loss: 0.698150
+[21/36][16/200], train_loss: 0.333429
+[22/36][16/200], train_loss: 0.595235
+[23/36][16/200], train_loss: 0.499394
+[24/36][16/200], train_loss: 0.359925
+[25/36][16/200], train_loss: 0.702999
+[26/36][16/200], train_loss: 0.360629
+[27/36][16/200], train_loss: 0.475217
+[28/36][16/200], train_loss: 0.412192
+[29/36][16/200], train_loss: 0.427498
+[30/36][16/200], train_loss: 0.449766
+[31/36][16/200], train_loss: 0.410916
+[32/36][16/200], train_loss: 0.357769
+[33/36][16/200], train_loss: 0.618432
+[34/36][16/200], train_loss: 0.433847
+[35/36][16/200], train_loss: 0.410519
+[36/36][16/200], train_loss: 0.648945
+ACC: 0.8017
+SEN: 0.7693
+SPE: 0.8943
+AUC: 0.9242
+F1_Score: 0.7744
+confusionMatrix：
+tensor([[516,  44,  21],
+        [ 46, 227,  31],
+        [ 40,  45, 175]], device='cuda:0')
+Epoch 16 average train loss: 0.504958
+Current epoch: 16
+ACC: 0.7378
+SEN: 0.7476
+SPE: 0.8706
+AUC: 0.8958
+F1_Score: 0.7321
+confusionMatrix：
+tensor([[103,  33,   9],
+        [ 10,  58,   8],
+        [  5,  10,  50]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 16 current accuracy: 0.737762 
+Best accuracy: 0.737762 at epoch 16
+Eopch:16 train acc:0.8017467260360718, test acc:0.7377622127532959
+----------
+epoch 17/200
+[1/36][17/200], train_loss: 0.328829
+[2/36][17/200], train_loss: 0.411788
+[3/36][17/200], train_loss: 0.555575
+[4/36][17/200], train_loss: 0.442075
+[5/36][17/200], train_loss: 0.398686
+[6/36][17/200], train_loss: 0.378939
+[7/36][17/200], train_loss: 0.348606
+[8/36][17/200], train_loss: 0.546246
+[9/36][17/200], train_loss: 0.621540
+[10/36][17/200], train_loss: 0.651763
+[11/36][17/200], train_loss: 0.513782
+[12/36][17/200], train_loss: 0.418229
+[13/36][17/200], train_loss: 0.670332
+[14/36][17/200], train_loss: 0.464625
+[15/36][17/200], train_loss: 0.439080
+[16/36][17/200], train_loss: 0.532742
+[17/36][17/200], train_loss: 0.753328
+[18/36][17/200], train_loss: 0.561085
+[19/36][17/200], train_loss: 0.316950
+[20/36][17/200], train_loss: 0.616971
+[21/36][17/200], train_loss: 0.362816
+[22/36][17/200], train_loss: 0.599286
+[23/36][17/200], train_loss: 0.447606
+[24/36][17/200], train_loss: 0.314550
+[25/36][17/200], train_loss: 0.671322
+[26/36][17/200], train_loss: 0.372214
+[27/36][17/200], train_loss: 0.455377
+[28/36][17/200], train_loss: 0.410249
+[29/36][17/200], train_loss: 0.371262
+[30/36][17/200], train_loss: 0.418152
+[31/36][17/200], train_loss: 0.417190
+[32/36][17/200], train_loss: 0.345686
+[33/36][17/200], train_loss: 0.541275
+[34/36][17/200], train_loss: 0.411944
+[35/36][17/200], train_loss: 0.394955
+[36/36][17/200], train_loss: 0.612422
+ACC: 0.8140
+SEN: 0.7823
+SPE: 0.8993
+AUC: 0.9321
+F1_Score: 0.7895
+confusionMatrix：
+tensor([[522,  45,  14],
+        [ 45, 231,  28],
+        [ 43,  38, 179]], device='cuda:0')
+Epoch 17 average train loss: 0.475485
+Current epoch: 17
+ACC: 0.7378
+SEN: 0.7446
+SPE: 0.8701
+AUC: 0.8936
+F1_Score: 0.7344
+confusionMatrix：
+tensor([[103,  36,   6],
+        [ 10,  62,   4],
+        [  5,  14,  46]], device='cuda:0')
+Current end epoch: 17 current accuracy: 0.737762 
+Best accuracy: 0.737762 at epoch 16
+Eopch:17 train acc:0.8139737844467163, test acc:0.7377622127532959
+----------
+epoch 18/200
+[1/36][18/200], train_loss: 0.296382
+[2/36][18/200], train_loss: 0.385569
+[3/36][18/200], train_loss: 0.524040
+[4/36][18/200], train_loss: 0.515422
+[5/36][18/200], train_loss: 0.462433
+[6/36][18/200], train_loss: 0.341968
+[7/36][18/200], train_loss: 0.305821
+[8/36][18/200], train_loss: 0.486460
+[9/36][18/200], train_loss: 0.629655
+[10/36][18/200], train_loss: 0.693905
+[11/36][18/200], train_loss: 0.488894
+[12/36][18/200], train_loss: 0.426324
+[13/36][18/200], train_loss: 0.630625
+[14/36][18/200], train_loss: 0.484937
+[15/36][18/200], train_loss: 0.450961
+[16/36][18/200], train_loss: 0.558370
+[17/36][18/200], train_loss: 0.624363
+[18/36][18/200], train_loss: 0.501068
+[19/36][18/200], train_loss: 0.289672
+[20/36][18/200], train_loss: 0.637690
+[21/36][18/200], train_loss: 0.299545
+[22/36][18/200], train_loss: 0.551038
+[23/36][18/200], train_loss: 0.420324
+[24/36][18/200], train_loss: 0.324982
+[25/36][18/200], train_loss: 0.621556
+[26/36][18/200], train_loss: 0.307717
+[27/36][18/200], train_loss: 0.377176
+[28/36][18/200], train_loss: 0.363270
+[29/36][18/200], train_loss: 0.338715
+[30/36][18/200], train_loss: 0.376419
+[31/36][18/200], train_loss: 0.338975
+[32/36][18/200], train_loss: 0.291090
+[33/36][18/200], train_loss: 0.483953
+[34/36][18/200], train_loss: 0.347059
+[35/36][18/200], train_loss: 0.362965
+[36/36][18/200], train_loss: 0.550770
+ACC: 0.8367
+SEN: 0.8065
+SPE: 0.9121
+AUC: 0.9415
+F1_Score: 0.8130
+confusionMatrix：
+tensor([[534,  32,  15],
+        [ 41, 234,  29],
+        [ 34,  36, 190]], device='cuda:0')
+Epoch 18 average train loss: 0.446948
+Current epoch: 18
+ACC: 0.7483
+SEN: 0.7461
+SPE: 0.8704
+AUC: 0.8989
+F1_Score: 0.7412
+confusionMatrix：
+tensor([[110,  29,   6],
+        [ 16,  54,   6],
+        [  5,  10,  50]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 18 current accuracy: 0.748252 
+Best accuracy: 0.748252 at epoch 18
+Eopch:18 train acc:0.8366812467575073, test acc:0.748251736164093
+----------
+epoch 19/200
+[1/36][19/200], train_loss: 0.256282
+[2/36][19/200], train_loss: 0.349239
+[3/36][19/200], train_loss: 0.496379
+[4/36][19/200], train_loss: 0.392669
+[5/36][19/200], train_loss: 0.313826
+[6/36][19/200], train_loss: 0.313100
+[7/36][19/200], train_loss: 0.285395
+[8/36][19/200], train_loss: 0.440965
+[9/36][19/200], train_loss: 0.552597
+[10/36][19/200], train_loss: 0.572361
+[11/36][19/200], train_loss: 0.456374
+[12/36][19/200], train_loss: 0.355943
+[13/36][19/200], train_loss: 0.649722
+[14/36][19/200], train_loss: 0.438885
+[15/36][19/200], train_loss: 0.374820
+[16/36][19/200], train_loss: 0.455911
+[17/36][19/200], train_loss: 0.626721
+[18/36][19/200], train_loss: 0.470622
+[19/36][19/200], train_loss: 0.247573
+[20/36][19/200], train_loss: 0.564968
+[21/36][19/200], train_loss: 0.281065
+[22/36][19/200], train_loss: 0.513152
+[23/36][19/200], train_loss: 0.383373
+[24/36][19/200], train_loss: 0.267089
+[25/36][19/200], train_loss: 0.580353
+[26/36][19/200], train_loss: 0.290982
+[27/36][19/200], train_loss: 0.366507
+[28/36][19/200], train_loss: 0.323287
+[29/36][19/200], train_loss: 0.341721
+[30/36][19/200], train_loss: 0.357540
+[31/36][19/200], train_loss: 0.318302
+[32/36][19/200], train_loss: 0.276726
+[33/36][19/200], train_loss: 0.443887
+[34/36][19/200], train_loss: 0.327500
+[35/36][19/200], train_loss: 0.348817
+[36/36][19/200], train_loss: 0.509453
+ACC: 0.8541
+SEN: 0.8287
+SPE: 0.9218
+AUC: 0.9526
+F1_Score: 0.8344
+confusionMatrix：
+tensor([[536,  34,  11],
+        [ 35, 245,  24],
+        [ 30,  33, 197]], device='cuda:0')
+Epoch 19 average train loss: 0.404003
+Current epoch: 19
+ACC: 0.7657
+SEN: 0.7549
+SPE: 0.8743
+AUC: 0.9006
+F1_Score: 0.7553
+confusionMatrix：
+tensor([[117,  23,   5],
+        [ 20,  50,   6],
+        [  6,   7,  52]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 19 current accuracy: 0.765734 
+Best accuracy: 0.765734 at epoch 19
+Eopch:19 train acc:0.8541484475135803, test acc:0.7657342553138733
+----------
+epoch 20/200
+[1/36][20/200], train_loss: 0.223218
+[2/36][20/200], train_loss: 0.307957
+[3/36][20/200], train_loss: 0.455031
+[4/36][20/200], train_loss: 0.375850
+[5/36][20/200], train_loss: 0.249286
+[6/36][20/200], train_loss: 0.264484
+[7/36][20/200], train_loss: 0.254066
+[8/36][20/200], train_loss: 0.395231
+[9/36][20/200], train_loss: 0.503029
+[10/36][20/200], train_loss: 0.535922
+[11/36][20/200], train_loss: 0.384603
+[12/36][20/200], train_loss: 0.315650
+[13/36][20/200], train_loss: 0.629569
+[14/36][20/200], train_loss: 0.438714
+[15/36][20/200], train_loss: 0.348548
+[16/36][20/200], train_loss: 0.418618
+[17/36][20/200], train_loss: 0.583730
+[18/36][20/200], train_loss: 0.433125
+[19/36][20/200], train_loss: 0.210132
+[20/36][20/200], train_loss: 0.538325
+[21/36][20/200], train_loss: 0.241861
+[22/36][20/200], train_loss: 0.457078
+[23/36][20/200], train_loss: 0.330040
+[24/36][20/200], train_loss: 0.225514
+[25/36][20/200], train_loss: 0.523220
+[26/36][20/200], train_loss: 0.282059
+[27/36][20/200], train_loss: 0.316213
+[28/36][20/200], train_loss: 0.305443
+[29/36][20/200], train_loss: 0.285938
+[30/36][20/200], train_loss: 0.319173
+[31/36][20/200], train_loss: 0.295112
+[32/36][20/200], train_loss: 0.256037
+[33/36][20/200], train_loss: 0.415137
+[34/36][20/200], train_loss: 0.294372
+[35/36][20/200], train_loss: 0.317609
+[36/36][20/200], train_loss: 0.454651
+ACC: 0.8734
+SEN: 0.8506
+SPE: 0.9328
+AUC: 0.9619
+F1_Score: 0.8552
+confusionMatrix：
+tensor([[542,  29,  10],
+        [ 27, 256,  21],
+        [ 26,  32, 202]], device='cuda:0')
+Epoch 20 average train loss: 0.366237
+Current epoch: 20
+ACC: 0.7692
+SEN: 0.7510
+SPE: 0.8746
+AUC: 0.9047
+F1_Score: 0.7522
+confusionMatrix：
+tensor([[121,  18,   6],
+        [ 21,  47,   8],
+        [  7,   6,  52]], device='cuda:0')
+saved new best accuracy model
+Current end epoch: 20 current accuracy: 0.769231 
+Best accuracy: 0.769231 at epoch 20
+Eopch:20 train acc:0.8733624219894409, test acc:0.7692307829856873
+----------
+epoch 21/200
+[1/36][21/200], train_loss: 0.195159
+[2/36][21/200], train_loss: 0.287227
+[3/36][21/200], train_loss: 0.406402
+[4/36][21/200], train_loss: 0.323799
+[5/36][21/200], train_loss: 0.177577
+[6/36][21/200], train_loss: 0.246223
+[7/36][21/200], train_loss: 0.200210
+[8/36][21/200], train_loss: 0.337474
+[9/36][21/200], train_loss: 0.456146
+[10/36][21/200], train_loss: 0.461604
+[11/36][21/200], train_loss: 0.361587
+[12/36][21/200], train_loss: 0.279208
+[13/36][21/200], train_loss: 0.589141
+[14/36][21/200], train_loss: 0.389934
+[15/36][21/200], train_loss: 0.294508
+[16/36][21/200], train_loss: 0.388459
+[17/36][21/200], train_loss: 0.510431
+[18/36][21/200], train_loss: 0.401884
+[19/36][21/200], train_loss: 0.183182
+[20/36][21/200], train_loss: 0.494182
+[21/36][21/200], train_loss: 0.205979
+[22/36][21/200], train_loss: 0.418190
+[23/36][21/200], train_loss: 0.283955
+[24/36][21/200], train_loss: 0.181476
+[25/36][21/200], train_loss: 0.449374
+[26/36][21/200], train_loss: 0.234561
+[27/36][21/200], train_loss: 0.246347
+[28/36][21/200], train_loss: 0.259863
+[29/36][21/200], train_loss: 0.244588
+[30/36][21/200], train_loss: 0.275135
+[31/36][21/200], train_loss: 0.262122
+[32/36][21/200], train_loss: 0.205933
+[33/36][21/200], train_loss: 0.374702
+[34/36][21/200], train_loss: 0.269097
+[35/36][21/200], train_loss: 0.284545
+[36/36][21/200], train_loss: 0.408742
+ACC: 0.8987
+SEN: 0.8775
+SPE: 0.9453
+AUC: 0.9712
+F1_Score: 0.8837
+confusionMatrix：
+tensor([[554,  20,   7],
+        [ 23, 266,  15],
+        [ 24,  27, 209]], device='cuda:0')
+Epoch 21 average train loss: 0.321915
+Current epoch: 21
+ACC: 0.7448
+SEN: 0.7328
+SPE: 0.8639
+AUC: 0.9010
+F1_Score: 0.7283
+confusionMatrix：
+tensor([[115,  20,  10],
+        [ 21,  46,   9],
+        [  7,   6,  52]], device='cuda:0')
+Current end epoch: 21 current accuracy: 0.744755 
+Best accuracy: 0.769231 at epoch 20
+Eopch:21 train acc:0.8986899852752686, test acc:0.7447552680969238
+----------
+epoch 22/200
+[1/36][22/200], train_loss: 0.179107
+[2/36][22/200], train_loss: 0.253697
+[3/36][22/200], train_loss: 0.361408
+[4/36][22/200], train_loss: 0.267689
+[5/36][22/200], train_loss: 0.138946
+[6/36][22/200], train_loss: 0.212224
+[7/36][22/200], train_loss: 0.178395
+[8/36][22/200], train_loss: 0.268229
+[9/36][22/200], train_loss: 0.378652
+[10/36][22/200], train_loss: 0.421237
+[11/36][22/200], train_loss: 0.295292
+[12/36][22/200], train_loss: 0.235610
+[13/36][22/200], train_loss: 0.516052
+[14/36][22/200], train_loss: 0.335952
+[15/36][22/200], train_loss: 0.262132
+[16/36][22/200], train_loss: 0.347377
+[17/36][22/200], train_loss: 0.408140
+[18/36][22/200], train_loss: 0.360679
+[19/36][22/200], train_loss: 0.150397
+[20/36][22/200], train_loss: 0.475909
+[21/36][22/200], train_loss: 0.158038
+[22/36][22/200], train_loss: 0.389111
+[23/36][22/200], train_loss: 0.253121
+[24/36][22/200], train_loss: 0.167753
+[25/36][22/200], train_loss: 0.371093
+[26/36][22/200], train_loss: 0.188839
+[27/36][22/200], train_loss: 0.200464
+[28/36][22/200], train_loss: 0.230988
+[29/36][22/200], train_loss: 0.191403
+[30/36][22/200], train_loss: 0.222120
+[31/36][22/200], train_loss: 0.229482
+[32/36][22/200], train_loss: 0.178594
+[33/36][22/200], train_loss: 0.293071
+[34/36][22/200], train_loss: 0.211003
+[35/36][22/200], train_loss: 0.257084
+[36/36][22/200], train_loss: 0.343214
+ACC: 0.9205
+SEN: 0.9038
+SPE: 0.9573
+AUC: 0.9799
+F1_Score: 0.9087
+confusionMatrix：
+tensor([[560,  14,   7],
+        [ 19, 274,  11],
+        [ 17,  23, 220]], device='cuda:0')
+Epoch 22 average train loss: 0.275903
+Current epoch: 22
+ACC: 0.7587
+SEN: 0.7371
+SPE: 0.8674
+AUC: 0.8985
+F1_Score: 0.7407
+confusionMatrix：
+tensor([[121,  19,   5],
+        [ 23,  45,   8],
+        [  8,   6,  51]], device='cuda:0')
+Current end epoch: 22 current accuracy: 0.758741 
+Best accuracy: 0.769231 at epoch 20
+Eopch:22 train acc:0.920524001121521, test acc:0.7587412595748901
+----------
+epoch 23/200
+[1/36][23/200], train_loss: 0.140621
+[2/36][23/200], train_loss: 0.204001
+[3/36][23/200], train_loss: 0.332840
+[4/36][23/200], train_loss: 0.252171
+[5/36][23/200], train_loss: 0.129749
+[6/36][23/200], train_loss: 0.179178
+[7/36][23/200], train_loss: 0.161859
+[8/36][23/200], train_loss: 0.237036
+[9/36][23/200], train_loss: 0.316815
+[10/36][23/200], train_loss: 0.350143
+[11/36][23/200], train_loss: 0.255097
+[12/36][23/200], train_loss: 0.200436
+[13/36][23/200], train_loss: 0.459492
+[14/36][23/200], train_loss: 0.290212
+[15/36][23/200], train_loss: 0.243552
+[16/36][23/200], train_loss: 0.311646
+[17/36][23/200], train_loss: 0.320060
+[18/36][23/200], train_loss: 0.318297
+[19/36][23/200], train_loss: 0.133567
+[20/36][23/200], train_loss: 0.434027
+[21/36][23/200], train_loss: 0.124669
+[22/36][23/200], train_loss: 0.368276
+[23/36][23/200], train_loss: 0.233854
+[24/36][23/200], train_loss: 0.167756
+[25/36][23/200], train_loss: 0.314374
+[26/36][23/200], train_loss: 0.136407
+[27/36][23/200], train_loss: 0.161014
+[28/36][23/200], train_loss: 0.186896
+[29/36][23/200], train_loss: 0.149138
+[30/36][23/200], train_loss: 0.177454
+[31/36][23/200], train_loss: 0.180873
+[32/36][23/200], train_loss: 0.142425
+[33/36][23/200], train_loss: 0.217693
+[34/36][23/200], train_loss: 0.164514
+[35/36][23/200], train_loss: 0.216938
+[36/36][23/200], train_loss: 0.289670
+ACC: 0.9362
+SEN: 0.9240
+SPE: 0.9651
+AUC: 0.9863
+F1_Score: 0.9284
+confusionMatrix：
+tensor([[562,  12,   7],
+        [ 16, 282,   6],
+        [ 16,  16, 228]], device='cuda:0')
+Epoch 23 average train loss: 0.236187
+Current epoch: 23
+ACC: 0.7413
+SEN: 0.7248
+SPE: 0.8578
+AUC: 0.8957
+F1_Score: 0.7293
+confusionMatrix：
+tensor([[116,  24,   5],
+        [ 24,  46,   6],
+        [  9,   6,  50]], device='cuda:0')
+Current end epoch: 23 current accuracy: 0.741259 
+Best accuracy: 0.769231 at epoch 20
+Eopch:23 train acc:0.936244547367096, test acc:0.7412587404251099
+----------
+epoch 24/200
+[1/36][24/200], train_loss: 0.113981
+[2/36][24/200], train_loss: 0.164163
+[3/36][24/200], train_loss: 0.282274
+[4/36][24/200], train_loss: 0.247336
+[5/36][24/200], train_loss: 0.109893
+[6/36][24/200], train_loss: 0.127253
+[7/36][24/200], train_loss: 0.142079
+[8/36][24/200], train_loss: 0.182550
+[9/36][24/200], train_loss: 0.240120
+[10/36][24/200], train_loss: 0.275612
+[11/36][24/200], train_loss: 0.208999
+[12/36][24/200], train_loss: 0.179762
+[13/36][24/200], train_loss: 0.388843
+[14/36][24/200], train_loss: 0.227947
+[15/36][24/200], train_loss: 0.193823
+[16/36][24/200], train_loss: 0.273508
+[17/36][24/200], train_loss: 0.241862
+[18/36][24/200], train_loss: 0.270671
+[19/36][24/200], train_loss: 0.110412
+[20/36][24/200], train_loss: 0.363442
+[21/36][24/200], train_loss: 0.103660
+[22/36][24/200], train_loss: 0.344368
+[23/36][24/200], train_loss: 0.190641
+[24/36][24/200], train_loss: 0.158014
+[25/36][24/200], train_loss: 0.268358
+[26/36][24/200], train_loss: 0.110160
+[27/36][24/200], train_loss: 0.143098
+[28/36][24/200], train_loss: 0.154502
+[29/36][24/200], train_loss: 0.116798
+[30/36][24/200], train_loss: 0.139109
+[31/36][24/200], train_loss: 0.150529
+[32/36][24/200], train_loss: 0.102092
+[33/36][24/200], train_loss: 0.156272
+[34/36][24/200], train_loss: 0.125595
+[35/36][24/200], train_loss: 0.166547
+[36/36][24/200], train_loss: 0.218210
+ACC: 0.9476
+SEN: 0.9381
+SPE: 0.9720
+AUC: 0.9914
+F1_Score: 0.9407
+confusionMatrix：
+tensor([[564,  10,   7],
+        [ 11, 288,   5],
+        [ 12,  15, 233]], device='cuda:0')
+Epoch 24 average train loss: 0.194236
+Current epoch: 24
+ACC: 0.7413
+SEN: 0.7242
+SPE: 0.8579
+AUC: 0.8958
+F1_Score: 0.7261
+confusionMatrix：
+tensor([[117,  22,   6],
+        [ 26,  43,   7],
+        [  7,   6,  52]], device='cuda:0')
+Current end epoch: 24 current accuracy: 0.741259 
+Best accuracy: 0.769231 at epoch 20
+Eopch:24 train acc:0.9475982785224915, test acc:0.7412587404251099
+----------
+epoch 25/200
+[1/36][25/200], train_loss: 0.086983
+[2/36][25/200], train_loss: 0.145213
+[3/36][25/200], train_loss: 0.262529
+[4/36][25/200], train_loss: 0.174355
+[5/36][25/200], train_loss: 0.088440
+[6/36][25/200], train_loss: 0.116575
+[7/36][25/200], train_loss: 0.129610
+[8/36][25/200], train_loss: 0.138891
+[9/36][25/200], train_loss: 0.184192
+[10/36][25/200], train_loss: 0.190702
+[11/36][25/200], train_loss: 0.163790
+[12/36][25/200], train_loss: 0.145174
+[13/36][25/200], train_loss: 0.340109
+[14/36][25/200], train_loss: 0.176674
+[15/36][25/200], train_loss: 0.172770
+[16/36][25/200], train_loss: 0.221393
+[17/36][25/200], train_loss: 0.171191
+[18/36][25/200], train_loss: 0.216864
+[19/36][25/200], train_loss: 0.076956
+[20/36][25/200], train_loss: 0.314175
+[21/36][25/200], train_loss: 0.088434
+[22/36][25/200], train_loss: 0.283786
+[23/36][25/200], train_loss: 0.136005
+[24/36][25/200], train_loss: 0.151642
+[25/36][25/200], train_loss: 0.233859
+[26/36][25/200], train_loss: 0.089245
+[27/36][25/200], train_loss: 0.133018
+[28/36][25/200], train_loss: 0.154026
+[29/36][25/200], train_loss: 0.093618
+[30/36][25/200], train_loss: 0.118317
+[31/36][25/200], train_loss: 0.124222
+[32/36][25/200], train_loss: 0.090988
+[33/36][25/200], train_loss: 0.129031
+[34/36][25/200], train_loss: 0.092902
+[35/36][25/200], train_loss: 0.129594
+[36/36][25/200], train_loss: 0.176577
+ACC: 0.9651
+SEN: 0.9575
+SPE: 0.9816
+AUC: 0.9948
+F1_Score: 0.9595
+confusionMatrix：
+tensor([[571,   5,   5],
+        [  6, 295,   3],
+        [  8,  13, 239]], device='cuda:0')
+Epoch 25 average train loss: 0.159496
+Current epoch: 25
+ACC: 0.7483
+SEN: 0.7205
+SPE: 0.8581
+AUC: 0.8981
+F1_Score: 0.7247
+confusionMatrix：
+tensor([[123,  15,   7],
+        [ 30,  39,   7],
+        [  7,   6,  52]], device='cuda:0')
+Current end epoch: 25 current accuracy: 0.748252 
+Best accuracy: 0.769231 at epoch 20
+Eopch:25 train acc:0.9650654792785645, test acc:0.748251736164093
+----------
+epoch 26/200
+[1/36][26/200], train_loss: 0.061419
+[2/36][26/200], train_loss: 0.173144
+[3/36][26/200], train_loss: 0.255716
+[4/36][26/200], train_loss: 0.125520
+[5/36][26/200], train_loss: 0.075141
+[6/36][26/200], train_loss: 0.216445
+[7/36][26/200], train_loss: 0.109056
+[8/36][26/200], train_loss: 0.190774
+[9/36][26/200], train_loss: 0.194456
+[10/36][26/200], train_loss: 0.249235
+[11/36][26/200], train_loss: 0.184554
+[12/36][26/200], train_loss: 0.120681
+[13/36][26/200], train_loss: 0.366264
+[14/36][26/200], train_loss: 0.163208
+[15/36][26/200], train_loss: 0.164324
+[16/36][26/200], train_loss: 0.306668
+[17/36][26/200], train_loss: 0.166605
+[18/36][26/200], train_loss: 0.290489
+[19/36][26/200], train_loss: 0.146316
+[20/36][26/200], train_loss: 0.287313
+[21/36][26/200], train_loss: 0.136548
+[22/36][26/200], train_loss: 0.387169
+[23/36][26/200], train_loss: 0.130344
+[24/36][26/200], train_loss: 0.243993
+[25/36][26/200], train_loss: 0.312429
+[26/36][26/200], train_loss: 0.128330
+[27/36][26/200], train_loss: 0.474056
+[28/36][26/200], train_loss: 0.156529
+[29/36][26/200], train_loss: 0.243867
+[30/36][26/200], train_loss: 0.278750
+[31/36][26/200], train_loss: 0.121258
+[32/36][26/200], train_loss: 0.111899
+[33/36][26/200], train_loss: 0.286307
+[34/36][26/200], train_loss: 0.189117
+[35/36][26/200], train_loss: 0.100473
+[36/36][26/200], train_loss: 0.318905
+ACC: 0.9231
+SEN: 0.9172
+SPE: 0.9580
+AUC: 0.9884
+F1_Score: 0.9187
+confusionMatrix：
+tensor([[547,  25,   9],
+        [ 25, 272,   7],
+        [ 13,   9, 238]], device='cuda:0')
+Epoch 26 average train loss: 0.207425
+Current epoch: 26
+ACC: 0.6853
+SEN: 0.7220
+SPE: 0.8505
+AUC: 0.8813
+F1_Score: 0.6938
+confusionMatrix：
+tensor([[83, 52, 10],
+        [ 7, 65,  4],
+        [ 3, 14, 48]], device='cuda:0')
+Current end epoch: 26 current accuracy: 0.685315 
+Best accuracy: 0.769231 at epoch 20
+Eopch:26 train acc:0.9231441020965576, test acc:0.6853147149085999
+----------
+epoch 27/200
+[1/36][27/200], train_loss: 0.158768
+[2/36][27/200], train_loss: 0.123710
+[3/36][27/200], train_loss: 0.333200
+[4/36][27/200], train_loss: 0.193140
+[5/36][27/200], train_loss: 0.112577
+[6/36][27/200], train_loss: 0.101381
+[7/36][27/200], train_loss: 0.151834
+[8/36][27/200], train_loss: 0.079572
+[9/36][27/200], train_loss: 0.152277
+[10/36][27/200], train_loss: 0.333366
+[11/36][27/200], train_loss: 0.138019
+[12/36][27/200], train_loss: 0.323936
+[13/36][27/200], train_loss: 0.202409
+[14/36][27/200], train_loss: 0.184679
+[15/36][27/200], train_loss: 0.293614
+[16/36][27/200], train_loss: 0.273938
+[17/36][27/200], train_loss: 0.195872
+[18/36][27/200], train_loss: 0.274296
+[19/36][27/200], train_loss: 0.092247
+[20/36][27/200], train_loss: 0.357867
+[21/36][27/200], train_loss: 0.249567
+[22/36][27/200], train_loss: 0.258724
+[23/36][27/200], train_loss: 0.121446
+[24/36][27/200], train_loss: 0.214409
+[25/36][27/200], train_loss: 0.273445
+[26/36][27/200], train_loss: 0.199192
+[27/36][27/200], train_loss: 0.192162
+[28/36][27/200], train_loss: 0.119341
+[29/36][27/200], train_loss: 0.103718
+[30/36][27/200], train_loss: 0.186436
+[31/36][27/200], train_loss: 0.174509
+[32/36][27/200], train_loss: 0.134706
+[33/36][27/200], train_loss: 0.209280
+[34/36][27/200], train_loss: 0.111500
+[35/36][27/200], train_loss: 0.327604
+[36/36][27/200], train_loss: 0.326378
+ACC: 0.9258
+SEN: 0.9122
+SPE: 0.9595
+AUC: 0.9893
+F1_Score: 0.9165
+confusionMatrix：
+tensor([[559,  10,  12],
+        [ 21, 274,   9],
+        [ 16,  17, 227]], device='cuda:0')
+Epoch 27 average train loss: 0.202198
+Current epoch: 27
+ACC: 0.6713
+SEN: 0.7249
+SPE: 0.8490
+AUC: 0.8824
+F1_Score: 0.6778
+confusionMatrix：
+tensor([[75, 52, 18],
+        [ 4, 64,  8],
+        [ 1, 11, 53]], device='cuda:0')
+Current end epoch: 27 current accuracy: 0.671329 
+Best accuracy: 0.769231 at epoch 20
+Eopch:27 train acc:0.9257642030715942, test acc:0.6713286638259888
+----------
+epoch 28/200
+[1/36][28/200], train_loss: 0.148068
+[2/36][28/200], train_loss: 0.504830
+[3/36][28/200], train_loss: 0.294470
+[4/36][28/200], train_loss: 0.114204
+[5/36][28/200], train_loss: 0.232715
+[6/36][28/200], train_loss: 0.479567
+[7/36][28/200], train_loss: 0.136718
+[8/36][28/200], train_loss: 0.158696
+[9/36][28/200], train_loss: 0.751658
+[10/36][28/200], train_loss: 0.303538
+[11/36][28/200], train_loss: 0.169061
+[12/36][28/200], train_loss: 0.544693
+[13/36][28/200], train_loss: 0.537819
+[14/36][28/200], train_loss: 0.215404
+[15/36][28/200], train_loss: 0.089290
+[16/36][28/200], train_loss: 0.522010
+[17/36][28/200], train_loss: 0.237712
+[18/36][28/200], train_loss: 0.232123
+[19/36][28/200], train_loss: 0.202981
+[20/36][28/200], train_loss: 0.300528
+[21/36][28/200], train_loss: 0.096066
+[22/36][28/200], train_loss: 0.382252
+[23/36][28/200], train_loss: 0.278964
+[24/36][28/200], train_loss: 0.108763
+[25/36][28/200], train_loss: 0.191247
+[26/36][28/200], train_loss: 0.170947
+[27/36][28/200], train_loss: 0.281284
+[28/36][28/200], train_loss: 0.282392
+[29/36][28/200], train_loss: 0.219879
+[30/36][28/200], train_loss: 0.131738
+[31/36][28/200], train_loss: 0.260424
+[32/36][28/200], train_loss: 0.328718
+[33/36][28/200], train_loss: 0.375369
+[34/36][28/200], train_loss: 0.203913
+[35/36][28/200], train_loss: 0.306089
+[36/36][28/200], train_loss: 0.465712
+ACC: 0.8699
+SEN: 0.8564
+SPE: 0.9275
+AUC: 0.9750
+F1_Score: 0.8625
+confusionMatrix：
+tensor([[528,  41,  12],
+        [ 46, 251,   7],
+        [ 25,  18, 217]], device='cuda:0')
+Epoch 28 average train loss: 0.284996
+Current epoch: 28
+ACC: 0.7133
+SEN: 0.6873
+SPE: 0.8473
+AUC: 0.8946
+F1_Score: 0.6619
+confusionMatrix：
+tensor([[120,   8,  17],
+        [ 28,  26,  22],
+        [  5,   2,  58]], device='cuda:0')
+Current end epoch: 28 current accuracy: 0.713287 
+Best accuracy: 0.769231 at epoch 20
+Eopch:28 train acc:0.8698689937591553, test acc:0.7132866978645325
+----------
+epoch 29/200
+[1/36][29/200], train_loss: 0.118293
+[2/36][29/200], train_loss: 0.193308
+[3/36][29/200], train_loss: 0.333041
+[4/36][29/200], train_loss: 0.269230
+[5/36][29/200], train_loss: 0.127319
+[6/36][29/200], train_loss: 0.115919
+[7/36][29/200], train_loss: 0.169622
+[8/36][29/200], train_loss: 0.480861
+[9/36][29/200], train_loss: 0.275030
+[10/36][29/200], train_loss: 0.201949
+[11/36][29/200], train_loss: 0.292391
+[12/36][29/200], train_loss: 0.440375
+[13/36][29/200], train_loss: 0.225000
+[14/36][29/200], train_loss: 0.170698
+[15/36][29/200], train_loss: 0.276401
+[16/36][29/200], train_loss: 0.446723
+[17/36][29/200], train_loss: 0.358196
+[18/36][29/200], train_loss: 0.189412
+[19/36][29/200], train_loss: 0.142259
+[20/36][29/200], train_loss: 0.336314
+[21/36][29/200], train_loss: 0.236146
+[22/36][29/200], train_loss: 0.313908
+[23/36][29/200], train_loss: 0.187160
+[24/36][29/200], train_loss: 0.132072
+[25/36][29/200], train_loss: 0.385831
+[26/36][29/200], train_loss: 0.083122
+[27/36][29/200], train_loss: 0.144644
+[28/36][29/200], train_loss: 0.140013
+[29/36][29/200], train_loss: 0.192274
+[30/36][29/200], train_loss: 0.115680
+[31/36][29/200], train_loss: 0.109395
+[32/36][29/200], train_loss: 0.077067
+[33/36][29/200], train_loss: 0.185713
+[34/36][29/200], train_loss: 0.175825
+[35/36][29/200], train_loss: 0.158747
+[36/36][29/200], train_loss: 0.160564
+ACC: 0.9083
+SEN: 0.9004
+SPE: 0.9494
+AUC: 0.9865
+F1_Score: 0.9032
+confusionMatrix：
+tensor([[541,  29,  11],
+        [ 29, 268,   7],
+        [ 19,  10, 231]], device='cuda:0')
+Epoch 29 average train loss: 0.221125
+Current epoch: 29
+ACC: 0.7448
+SEN: 0.6987
+SPE: 0.8536
+AUC: 0.8979
+F1_Score: 0.7005
+confusionMatrix：
+tensor([[131,  10,   4],
+        [ 32,  31,  13],
+        [  9,   5,  51]], device='cuda:0')
+Current end epoch: 29 current accuracy: 0.744755 
+Best accuracy: 0.769231 at epoch 20
+Eopch:29 train acc:0.9082969427108765, test acc:0.7447552680969238
+----------
+epoch 30/200
+[1/36][30/200], train_loss: 0.060302
+[2/36][30/200], train_loss: 0.124332
+[3/36][30/200], train_loss: 0.161977
+[4/36][30/200], train_loss: 0.278998
+[5/36][30/200], train_loss: 0.144224
+[6/36][30/200], train_loss: 0.066491
+[7/36][30/200], train_loss: 0.064091
+[8/36][30/200], train_loss: 0.073821
+[9/36][30/200], train_loss: 0.128757
+[10/36][30/200], train_loss: 0.221677
+[11/36][30/200], train_loss: 0.105403
+[12/36][30/200], train_loss: 0.113006
+[13/36][30/200], train_loss: 0.268883
+[14/36][30/200], train_loss: 0.119768
+[15/36][30/200], train_loss: 0.070424
+[16/36][30/200], train_loss: 0.151296
+[17/36][30/200], train_loss: 0.261247
+[18/36][30/200], train_loss: 0.219668
+[19/36][30/200], train_loss: 0.084381
+[20/36][30/200], train_loss: 0.113418
+[21/36][30/200], train_loss: 0.053850
+[22/36][30/200], train_loss: 0.257804
+[23/36][30/200], train_loss: 0.205234
+[24/36][30/200], train_loss: 0.070268
+[25/36][30/200], train_loss: 0.175151
+[26/36][30/200], train_loss: 0.046913
+[27/36][30/200], train_loss: 0.092792
+[28/36][30/200], train_loss: 0.163329
+[29/36][30/200], train_loss: 0.164629
+[30/36][30/200], train_loss: 0.122766
+[31/36][30/200], train_loss: 0.152847
+[32/36][30/200], train_loss: 0.109380
+[33/36][30/200], train_loss: 0.137584
+[34/36][30/200], train_loss: 0.107473
+[35/36][30/200], train_loss: 0.170064
+[36/36][30/200], train_loss: 0.217091
+ACC: 0.9598
+SEN: 0.9503
+SPE: 0.9796
+AUC: 0.9960
+F1_Score: 0.9516
+confusionMatrix：
+tensor([[571,   4,   6],
+        [  2, 292,  10],
+        [ 11,  13, 236]], device='cuda:0')
+Epoch 30 average train loss: 0.141093
+Current epoch: 30
+ACC: 0.7378
+SEN: 0.6714
+SPE: 0.8370
+AUC: 0.9017
+F1_Score: 0.6962
+confusionMatrix：
+tensor([[137,   8,   0],
+        [ 41,  31,   4],
+        [ 16,   6,  43]], device='cuda:0')
+Current end epoch: 30 current accuracy: 0.737762 
+Best accuracy: 0.769231 at epoch 20
+Eopch:30 train acc:0.959825336933136, test acc:0.7377622127532959
+----------
+epoch 31/200
+[1/36][31/200], train_loss: 0.070604
+[2/36][31/200], train_loss: 0.078932
+[3/36][31/200], train_loss: 0.118024
+[4/36][31/200], train_loss: 0.227928
+[5/36][31/200], train_loss: 0.182144
+[6/36][31/200], train_loss: 0.085151
+[7/36][31/200], train_loss: 0.069650
+[8/36][31/200], train_loss: 0.057431
+[9/36][31/200], train_loss: 0.097797
+[10/36][31/200], train_loss: 0.163572
+[11/36][31/200], train_loss: 0.095661
+[12/36][31/200], train_loss: 0.128359
+[13/36][31/200], train_loss: 0.347315
+[14/36][31/200], train_loss: 0.152143
+[15/36][31/200], train_loss: 0.052396
+[16/36][31/200], train_loss: 0.082470
+[17/36][31/200], train_loss: 0.116624
+[18/36][31/200], train_loss: 0.259933
+[19/36][31/200], train_loss: 0.226357
+[20/36][31/200], train_loss: 0.104515
+[21/36][31/200], train_loss: 0.042708
+[22/36][31/200], train_loss: 0.152379
+[23/36][31/200], train_loss: 0.125251
+[24/36][31/200], train_loss: 0.091404
+[25/36][31/200], train_loss: 0.343334
+[26/36][31/200], train_loss: 0.147416
+[27/36][31/200], train_loss: 0.116326
+[28/36][31/200], train_loss: 0.077964
+[29/36][31/200], train_loss: 0.110984
+[30/36][31/200], train_loss: 0.211207
+[31/36][31/200], train_loss: 0.255122
+[32/36][31/200], train_loss: 0.151370
+[33/36][31/200], train_loss: 0.151455
+[34/36][31/200], train_loss: 0.086413
+[35/36][31/200], train_loss: 0.136934
+[36/36][31/200], train_loss: 0.295820
+ACC: 0.9624
+SEN: 0.9545
+SPE: 0.9805
+AUC: 0.9950
+F1_Score: 0.9556
+confusionMatrix：
+tensor([[569,   2,  10],
+        [  1, 298,   5],
+        [ 13,  12, 235]], device='cuda:0')
+Epoch 31 average train loss: 0.144808
+Current epoch: 31
+ACC: 0.6818
+SEN: 0.5888
+SPE: 0.7974
+AUC: 0.8895
+F1_Score: 0.6174
+confusionMatrix：
+tensor([[138,   7,   0],
+        [ 47,  28,   1],
+        [ 28,   8,  29]], device='cuda:0')
+Current end epoch: 31 current accuracy: 0.681818 
+Best accuracy: 0.769231 at epoch 20
+Eopch:31 train acc:0.9624454379081726, test acc:0.6818181872367859
+----------
+epoch 32/200
+[1/36][32/200], train_loss: 0.272073
+[2/36][32/200], train_loss: 0.146346
+[3/36][32/200], train_loss: 0.128835
+[4/36][32/200], train_loss: 0.159871
+[5/36][32/200], train_loss: 0.272761
+[6/36][32/200], train_loss: 0.216312
+[7/36][32/200], train_loss: 0.181306
+[8/36][32/200], train_loss: 0.068867
+[9/36][32/200], train_loss: 0.083775
+[10/36][32/200], train_loss: 0.138127
+[11/36][32/200], train_loss: 0.131151
+[12/36][32/200], train_loss: 0.252837
+[13/36][32/200], train_loss: 0.484866
+[14/36][32/200], train_loss: 0.238194
+[15/36][32/200], train_loss: 0.113477
+[16/36][32/200], train_loss: 0.107104
+[17/36][32/200], train_loss: 0.060227
+[18/36][32/200], train_loss: 0.197378
+[19/36][32/200], train_loss: 0.303139
+[20/36][32/200], train_loss: 0.204276
+[21/36][32/200], train_loss: 0.162446
+[22/36][32/200], train_loss: 0.148852
+[23/36][32/200], train_loss: 0.056397
+[24/36][32/200], train_loss: 0.055766
+[25/36][32/200], train_loss: 0.358166
+[26/36][32/200], train_loss: 0.235684
+[27/36][32/200], train_loss: 0.295662
+[28/36][32/200], train_loss: 0.168290
+[29/36][32/200], train_loss: 0.067252
+[30/36][32/200], train_loss: 0.100736
+[31/36][32/200], train_loss: 0.139478
+[32/36][32/200], train_loss: 0.206913
+[33/36][32/200], train_loss: 0.248362
+[34/36][32/200], train_loss: 0.209392
+[35/36][32/200], train_loss: 0.042880
+[36/36][32/200], train_loss: 0.115077
+ACC: 0.9397
+SEN: 0.9285
+SPE: 0.9692
+AUC: 0.9901
+F1_Score: 0.9287
+confusionMatrix：
+tensor([[560,   1,  20],
+        [  0, 293,  11],
+        [ 21,  16, 223]], device='cuda:0')
+Epoch 32 average train loss: 0.177008
+Current epoch: 32
+ACC: 0.6923
+SEN: 0.6055
+SPE: 0.8060
+AUC: 0.8923
+F1_Score: 0.6351
+confusionMatrix：
+tensor([[137,   8,   0],
+        [ 45,  30,   1],
+        [ 25,   9,  31]], device='cuda:0')
+Current end epoch: 32 current accuracy: 0.692308 
+Best accuracy: 0.769231 at epoch 20
+Eopch:32 train acc:0.9397379755973816, test acc:0.692307710647583
+----------
+epoch 33/200
+[1/36][33/200], train_loss: 0.131232
+[2/36][33/200], train_loss: 0.296488
+[3/36][33/200], train_loss: 0.391050
+[4/36][33/200], train_loss: 0.078502
+[5/36][33/200], train_loss: 0.049978
+[6/36][33/200], train_loss: 0.059620
+[7/36][33/200], train_loss: 0.318330
+[8/36][33/200], train_loss: 0.298414
+[9/36][33/200], train_loss: 0.216144
+[10/36][33/200], train_loss: 0.053658
+[11/36][33/200], train_loss: 0.054510
+[12/36][33/200], train_loss: 0.132254
+[13/36][33/200], train_loss: 0.351590
+[14/36][33/200], train_loss: 0.347401
+[15/36][33/200], train_loss: 0.423335
+[16/36][33/200], train_loss: 0.302787
+[17/36][33/200], train_loss: 0.240740
+[18/36][33/200], train_loss: 0.099309
+[19/36][33/200], train_loss: 0.214719
+[20/36][33/200], train_loss: 0.375214
+[21/36][33/200], train_loss: 0.450171
+[22/36][33/200], train_loss: 0.288496
+[23/36][33/200], train_loss: 0.079712
+[24/36][33/200], train_loss: 0.059333
+[25/36][33/200], train_loss: 0.186814
+[26/36][33/200], train_loss: 0.133889
+[27/36][33/200], train_loss: 0.256339
+[28/36][33/200], train_loss: 0.230397
+[29/36][33/200], train_loss: 0.092859
+[30/36][33/200], train_loss: 0.118543
+[31/36][33/200], train_loss: 0.076655
+[32/36][33/200], train_loss: 0.068058
+[33/36][33/200], train_loss: 0.123979
+[34/36][33/200], train_loss: 0.180456
+[35/36][33/200], train_loss: 0.084948
+[36/36][33/200], train_loss: 0.117034
+ACC: 0.9336
+SEN: 0.9193
+SPE: 0.9653
+AUC: 0.9883
+F1_Score: 0.9213
+confusionMatrix：
+tensor([[561,   2,  18],
+        [  0, 290,  14],
+        [ 27,  15, 218]], device='cuda:0')
+Epoch 33 average train loss: 0.193971
+Current epoch: 33
+ACC: 0.7343
+SEN: 0.6760
+SPE: 0.8419
+AUC: 0.8989
+F1_Score: 0.6973
+confusionMatrix：
+tensor([[132,  12,   1],
+        [ 33,  37,   6],
+        [ 16,   8,  41]], device='cuda:0')
+Current end epoch: 33 current accuracy: 0.734266 
+Best accuracy: 0.769231 at epoch 20
+Eopch:33 train acc:0.9336244463920593, test acc:0.7342657446861267
+----------
+epoch 34/200
+[1/36][34/200], train_loss: 0.037741
+[2/36][34/200], train_loss: 0.112174
+[3/36][34/200], train_loss: 0.261279
+[4/36][34/200], train_loss: 0.088266
+[5/36][34/200], train_loss: 0.025688
+[6/36][34/200], train_loss: 0.046916
+[7/36][34/200], train_loss: 0.058865
+[8/36][34/200], train_loss: 0.046992
+[9/36][34/200], train_loss: 0.143532
+[10/36][34/200], train_loss: 0.112901
+[11/36][34/200], train_loss: 0.068005
+[12/36][34/200], train_loss: 0.057443
+[13/36][34/200], train_loss: 0.186731
+[14/36][34/200], train_loss: 0.153783
+[15/36][34/200], train_loss: 0.084065
+[16/36][34/200], train_loss: 0.113855
+[17/36][34/200], train_loss: 0.208357
+[18/36][34/200], train_loss: 0.068698
+[19/36][34/200], train_loss: 0.031195
+[20/36][34/200], train_loss: 0.058641
+[21/36][34/200], train_loss: 0.163407
+[22/36][34/200], train_loss: 0.246656
+[23/36][34/200], train_loss: 0.148237
+[24/36][34/200], train_loss: 0.098629
+[25/36][34/200], train_loss: 0.122479
+[26/36][34/200], train_loss: 0.060874
+[27/36][34/200], train_loss: 0.135300
+[28/36][34/200], train_loss: 0.222550
+[29/36][34/200], train_loss: 0.097987
+[30/36][34/200], train_loss: 0.123560
+[31/36][34/200], train_loss: 0.037741
+[32/36][34/200], train_loss: 0.022267
+[33/36][34/200], train_loss: 0.025549
+[34/36][34/200], train_loss: 0.037406
+[35/36][34/200], train_loss: 0.047700
+[36/36][34/200], train_loss: 0.097141
+ACC: 0.9747
+SEN: 0.9683
+SPE: 0.9869
+AUC: 0.9979
+F1_Score: 0.9696
+confusionMatrix：
+tensor([[574,   2,   5],
+        [  0, 301,   3],
+        [  9,  10, 241]], device='cuda:0')
+Epoch 34 average train loss: 0.101461
+Current epoch: 34
+ACC: 0.7273
+SEN: 0.7144
+SPE: 0.8591
+AUC: 0.8979
+F1_Score: 0.7011
+confusionMatrix：
+tensor([[114,  18,  13],
+        [ 19,  40,  17],
+        [  6,   5,  54]], device='cuda:0')
+Current end epoch: 34 current accuracy: 0.727273 
+Best accuracy: 0.769231 at epoch 20
+Eopch:34 train acc:0.9746724963188171, test acc:0.7272727489471436
+----------
+epoch 35/200
+[1/36][35/200], train_loss: 0.035724
+[2/36][35/200], train_loss: 0.032305
+[3/36][35/200], train_loss: 0.099188
+[4/36][35/200], train_loss: 0.027670
+[5/36][35/200], train_loss: 0.011847
+[6/36][35/200], train_loss: 0.043696
+[7/36][35/200], train_loss: 0.039450
+[8/36][35/200], train_loss: 0.028200
+[9/36][35/200], train_loss: 0.073925
+[10/36][35/200], train_loss: 0.090149
+[11/36][35/200], train_loss: 0.052664
+[12/36][35/200], train_loss: 0.043820
+[13/36][35/200], train_loss: 0.174163
+[14/36][35/200], train_loss: 0.138415
+[15/36][35/200], train_loss: 0.056669
+[16/36][35/200], train_loss: 0.068731
+[17/36][35/200], train_loss: 0.050468
+[18/36][35/200], train_loss: 0.040966
+[19/36][35/200], train_loss: 0.036856
+[20/36][35/200], train_loss: 0.052786
+[21/36][35/200], train_loss: 0.063731
+[22/36][35/200], train_loss: 0.089852
+[23/36][35/200], train_loss: 0.034869
+[24/36][35/200], train_loss: 0.060101
+[25/36][35/200], train_loss: 0.075387
+[26/36][35/200], train_loss: 0.026773
+[27/36][35/200], train_loss: 0.021694
+[28/36][35/200], train_loss: 0.042016
+[29/36][35/200], train_loss: 0.026150
+[30/36][35/200], train_loss: 0.067191
+[31/36][35/200], train_loss: 0.040869
+[32/36][35/200], train_loss: 0.044976
+[33/36][35/200], train_loss: 0.097654
+[34/36][35/200], train_loss: 0.042670
+[35/36][35/200], train_loss: 0.025506
+[36/36][35/200], train_loss: 0.048957
+ACC: 0.9921
+SEN: 0.9901
+SPE: 0.9955
+AUC: 0.9997
+F1_Score: 0.9912
+confusionMatrix：
+tensor([[579,   0,   2],
+        [  1, 303,   0],
+        [  4,   2, 254]], device='cuda:0')
+Epoch 35 average train loss: 0.055725
+Current epoch: 35
+ACC: 0.7098
+SEN: 0.6918
+SPE: 0.8503
+AUC: 0.8949
+F1_Score: 0.6768
+confusionMatrix：
+tensor([[114,  12,  19],
+        [ 21,  36,  19],
+        [  6,   6,  53]], device='cuda:0')
+Current end epoch: 35 current accuracy: 0.709790 
+Best accuracy: 0.769231 at epoch 20
+Eopch:35 train acc:0.9921397566795349, test acc:0.7097902297973633
+----------
+epoch 36/200
+[1/36][36/200], train_loss: 0.030251
+[2/36][36/200], train_loss: 0.056292
+[3/36][36/200], train_loss: 0.060734
+[4/36][36/200], train_loss: 0.046578
+[5/36][36/200], train_loss: 0.022545
+[6/36][36/200], train_loss: 0.019684
+[7/36][36/200], train_loss: 0.023985
+[8/36][36/200], train_loss: 0.015880
+[9/36][36/200], train_loss: 0.041490
+[10/36][36/200], train_loss: 0.039798
+[11/36][36/200], train_loss: 0.026339
+[12/36][36/200], train_loss: 0.025221
+[13/36][36/200], train_loss: 0.107388
+[14/36][36/200], train_loss: 0.098646
+[15/36][36/200], train_loss: 0.063105
+[16/36][36/200], train_loss: 0.081819
+[17/36][36/200], train_loss: 0.037637
+[18/36][36/200], train_loss: 0.019450
+[19/36][36/200], train_loss: 0.023670
+[20/36][36/200], train_loss: 0.044149
+[21/36][36/200], train_loss: 0.135582
+[22/36][36/200], train_loss: 0.105681
+[23/36][36/200], train_loss: 0.041334
+[24/36][36/200], train_loss: 0.026508
+[25/36][36/200], train_loss: 0.080563
+[26/36][36/200], train_loss: 0.033169
+[27/36][36/200], train_loss: 0.042099
+[28/36][36/200], train_loss: 0.060777
+[29/36][36/200], train_loss: 0.028631
+[30/36][36/200], train_loss: 0.060971
+[31/36][36/200], train_loss: 0.048646
+[32/36][36/200], train_loss: 0.042572
+[33/36][36/200], train_loss: 0.058196
+[34/36][36/200], train_loss: 0.028833
+[35/36][36/200], train_loss: 0.016906
+[36/36][36/200], train_loss: 0.039541
+ACC: 0.9930
+SEN: 0.9912
+SPE: 0.9959
+AUC: 0.9998
+F1_Score: 0.9923
+confusionMatrix：
+tensor([[579,   0,   2],
+        [  0, 304,   0],
+        [  5,   1, 254]], device='cuda:0')
+Epoch 36 average train loss: 0.048185
+Current epoch: 36
+ACC: 0.7343
+SEN: 0.6918
+SPE: 0.8517
+AUC: 0.8955
+F1_Score: 0.6880
+confusionMatrix：
+tensor([[128,   9,   8],
+        [ 29,  31,  16],
+        [  9,   5,  51]], device='cuda:0')
+Current end epoch: 36 current accuracy: 0.734266 
+Best accuracy: 0.769231 at epoch 20
+Eopch:36 train acc:0.9930130839347839, test acc:0.7342657446861267
+----------
+epoch 37/200
+[1/36][37/200], train_loss: 0.019867
+[2/36][37/200], train_loss: 0.037364
+[3/36][37/200], train_loss: 0.055729
+[4/36][37/200], train_loss: 0.052921
+[5/36][37/200], train_loss: 0.031323
+[6/36][37/200], train_loss: 0.020608
+[7/36][37/200], train_loss: 0.038138
+[8/36][37/200], train_loss: 0.029727
+[9/36][37/200], train_loss: 0.070112
+[10/36][37/200], train_loss: 0.041949
+[11/36][37/200], train_loss: 0.019437
+[12/36][37/200], train_loss: 0.020222
+[13/36][37/200], train_loss: 0.103832
+[14/36][37/200], train_loss: 0.084581
+[15/36][37/200], train_loss: 0.066670
+[16/36][37/200], train_loss: 0.071459
+[17/36][37/200], train_loss: 0.056537
+[18/36][37/200], train_loss: 0.020434
+[19/36][37/200], train_loss: 0.012957
+[20/36][37/200], train_loss: 0.028493
+[21/36][37/200], train_loss: 0.057696
+[22/36][37/200], train_loss: 0.116084
+[23/36][37/200], train_loss: 0.116471
+[24/36][37/200], train_loss: 0.033972
+[25/36][37/200], train_loss: 0.026938
+[26/36][37/200], train_loss: 0.031508
+[27/36][37/200], train_loss: 0.103371
+[28/36][37/200], train_loss: 0.105239
+[29/36][37/200], train_loss: 0.033761
+[30/36][37/200], train_loss: 0.051336
+[31/36][37/200], train_loss: 0.081633
+[32/36][37/200], train_loss: 0.078123
+[33/36][37/200], train_loss: 0.089488
+[34/36][37/200], train_loss: 0.027573
+[35/36][37/200], train_loss: 0.016563
+[36/36][37/200], train_loss: 0.064893
+ACC: 0.9913
+SEN: 0.9900
+SPE: 0.9951
+AUC: 0.9999
+F1_Score: 0.9904
+confusionMatrix：
+tensor([[577,   0,   4],
+        [  0, 304,   0],
+        [  5,   1, 254]], device='cuda:0')
+Epoch 37 average train loss: 0.053250
+Current epoch: 37
+ACC: 0.7343
+SEN: 0.6758
+SPE: 0.8420
+AUC: 0.8978
+F1_Score: 0.6685
+confusionMatrix：
+tensor([[136,   4,   5],
+        [ 40,  22,  14],
+        [ 10,   3,  52]], device='cuda:0')
+Current end epoch: 37 current accuracy: 0.734266 
+Best accuracy: 0.769231 at epoch 20
+Eopch:37 train acc:0.9912663698196411, test acc:0.7342657446861267
+----------
+epoch 38/200
+[1/36][38/200], train_loss: 0.031356
+[2/36][38/200], train_loss: 0.064635
+[3/36][38/200], train_loss: 0.047341
+[4/36][38/200], train_loss: 0.041341
+[5/36][38/200], train_loss: 0.033786
+[6/36][38/200], train_loss: 0.022911
+[7/36][38/200], train_loss: 0.062945
+[8/36][38/200], train_loss: 0.032155
+[9/36][38/200], train_loss: 0.060011
+[10/36][38/200], train_loss: 0.026713
+[11/36][38/200], train_loss: 0.016095
+[12/36][38/200], train_loss: 0.025205
+[13/36][38/200], train_loss: 0.081841
+[14/36][38/200], train_loss: 0.057806
+[15/36][38/200], train_loss: 0.041805
+[16/36][38/200], train_loss: 0.069154
+[17/36][38/200], train_loss: 0.090792
+[18/36][38/200], train_loss: 0.025307
+[19/36][38/200], train_loss: 0.007827
+[20/36][38/200], train_loss: 0.021801
+[21/36][38/200], train_loss: 0.025894
+[22/36][38/200], train_loss: 0.059654
+[23/36][38/200], train_loss: 0.122825
+[24/36][38/200], train_loss: 0.089375
+[25/36][38/200], train_loss: 0.029769
+[26/36][38/200], train_loss: 0.012405
+[27/36][38/200], train_loss: 0.034774
+[28/36][38/200], train_loss: 0.142818
+[29/36][38/200], train_loss: 0.158005
+[30/36][38/200], train_loss: 0.045392
+[31/36][38/200], train_loss: 0.068482
+[32/36][38/200], train_loss: 0.231066
+[33/36][38/200], train_loss: 0.161379
+[34/36][38/200], train_loss: 0.029574
+[35/36][38/200], train_loss: 0.049349
+[36/36][38/200], train_loss: 0.215444
+ACC: 0.9825
+SEN: 0.9804
+SPE: 0.9904
+AUC: 0.9997
+F1_Score: 0.9814
+confusionMatrix：
+tensor([[574,   5,   2],
+        [  6, 298,   0],
+        [  3,   4, 253]], device='cuda:0')
+Epoch 38 average train loss: 0.064918
+Current epoch: 38
+ACC: 0.7308
+SEN: 0.6595
+SPE: 0.8356
+AUC: 0.8982
+F1_Score: 0.6498
+confusionMatrix：
+tensor([[141,   2,   2],
+        [ 43,  18,  15],
+        [ 13,   2,  50]], device='cuda:0')
+Current end epoch: 38 current accuracy: 0.730769 
+Best accuracy: 0.769231 at epoch 20
+Eopch:38 train acc:0.9825327396392822, test acc:0.7307692170143127
+----------
+epoch 39/200
+[1/36][39/200], train_loss: 0.035382
+[2/36][39/200], train_loss: 0.032746
+[3/36][39/200], train_loss: 0.044739
+[4/36][39/200], train_loss: 0.046997
+[5/36][39/200], train_loss: 0.054525
+[6/36][39/200], train_loss: 0.029713
+[7/36][39/200], train_loss: 0.056495
+[8/36][39/200], train_loss: 0.031842
+[9/36][39/200], train_loss: 0.055080
+[10/36][39/200], train_loss: 0.025755
+[11/36][39/200], train_loss: 0.022746
+[12/36][39/200], train_loss: 0.034325
+[13/36][39/200], train_loss: 0.083040
+[14/36][39/200], train_loss: 0.064635
+[15/36][39/200], train_loss: 0.044696
+[16/36][39/200], train_loss: 0.064889
+[17/36][39/200], train_loss: 0.068091
+[18/36][39/200], train_loss: 0.023153
+[19/36][39/200], train_loss: 0.011436
+[20/36][39/200], train_loss: 0.022915
+[21/36][39/200], train_loss: 0.021346
+[22/36][39/200], train_loss: 0.040996
+[23/36][39/200], train_loss: 0.062330
+[24/36][39/200], train_loss: 0.066759
+[25/36][39/200], train_loss: 0.052513
+[26/36][39/200], train_loss: 0.019957
+[27/36][39/200], train_loss: 0.016905
+[28/36][39/200], train_loss: 0.012933
+[29/36][39/200], train_loss: 0.050298
+[30/36][39/200], train_loss: 0.322299
+[31/36][39/200], train_loss: 0.015851
+[32/36][39/200], train_loss: 0.031186
+[33/36][39/200], train_loss: 0.850163
+[34/36][39/200], train_loss: 0.139905
+[35/36][39/200], train_loss: 0.047906
+[36/36][39/200], train_loss: 0.251869
+ACC: 0.9773
+SEN: 0.9752
+SPE: 0.9876
+AUC: 0.9984
+F1_Score: 0.9763
+confusionMatrix：
+tensor([[571,  10,   0],
+        [  8, 296,   0],
+        [  3,   5, 252]], device='cuda:0')
+Epoch 39 average train loss: 0.079345
+Current epoch: 39
+ACC: 0.6678
+SEN: 0.5685
+SPE: 0.7865
+AUC: 0.8911
+F1_Score: 0.5143
+confusionMatrix：
+tensor([[145,   0,   0],
+        [ 63,   1,  12],
+        [ 19,   1,  45]], device='cuda:0')
+Current end epoch: 39 current accuracy: 0.667832 
+Best accuracy: 0.769231 at epoch 20
+Eopch:39 train acc:0.9772925972938538, test acc:0.6678321957588196
+----------
+epoch 40/200
+[1/36][40/200], train_loss: 0.163279
+[2/36][40/200], train_loss: 0.360674
+[3/36][40/200], train_loss: 0.052437
+[4/36][40/200], train_loss: 0.102592
+[5/36][40/200], train_loss: 0.243418
+[6/36][40/200], train_loss: 0.055843
+[7/36][40/200], train_loss: 0.104099
+[8/36][40/200], train_loss: 0.031630
+[9/36][40/200], train_loss: 0.092688
+[10/36][40/200], train_loss: 0.071390
+[11/36][40/200], train_loss: 0.088539
+[12/36][40/200], train_loss: 0.069306
+[13/36][40/200], train_loss: 0.137331
+[14/36][40/200], train_loss: 0.077957
+[15/36][40/200], train_loss: 0.025544
+[16/36][40/200], train_loss: 0.066654
+[17/36][40/200], train_loss: 0.092929
+[18/36][40/200], train_loss: 0.036998
+[19/36][40/200], train_loss: 0.022856
+[20/36][40/200], train_loss: 0.048832
+[21/36][40/200], train_loss: 0.039034
+[22/36][40/200], train_loss: 0.071749
+[23/36][40/200], train_loss: 0.079156
+[24/36][40/200], train_loss: 0.043089
+[25/36][40/200], train_loss: 0.053919
+[26/36][40/200], train_loss: 0.022662
+[27/36][40/200], train_loss: 0.023835
+[28/36][40/200], train_loss: 0.029559
+[29/36][40/200], train_loss: 0.074339
+[30/36][40/200], train_loss: 0.083076
+[31/36][40/200], train_loss: 0.072251
+[32/36][40/200], train_loss: 0.023045
+[33/36][40/200], train_loss: 0.024264
+[34/36][40/200], train_loss: 0.369482
+[35/36][40/200], train_loss: 0.339998
+[36/36][40/200], train_loss: 0.026594
+ACC: 0.9721
+SEN: 0.9704
+SPE: 0.9850
+AUC: 0.9979
+F1_Score: 0.9707
+confusionMatrix：
+tensor([[568,  12,   1],
+        [ 11, 292,   1],
+        [  1,   6, 253]], device='cuda:0')
+Epoch 40 average train loss: 0.092251
+Current epoch: 40
+ACC: 0.7133
+SEN: 0.6303
+SPE: 0.8186
+AUC: 0.9010
+F1_Score: 0.6370
+confusionMatrix：
+tensor([[142,   2,   1],
+        [ 48,  19,   9],
+        [ 19,   3,  43]], device='cuda:0')
+Current end epoch: 40 current accuracy: 0.713287 
+Best accuracy: 0.769231 at epoch 20
+Eopch:40 train acc:0.9720523953437805, test acc:0.7132866978645325
+----------
+epoch 41/200
+[1/36][41/200], train_loss: 0.019579
+[2/36][41/200], train_loss: 0.252940
+[3/36][41/200], train_loss: 0.612996
+[4/36][41/200], train_loss: 0.219837
+[5/36][41/200], train_loss: 0.058489
+[6/36][41/200], train_loss: 0.059187
+[7/36][41/200], train_loss: 0.684206
+[8/36][41/200], train_loss: 0.133482
+[9/36][41/200], train_loss: 0.056140
+[10/36][41/200], train_loss: 0.029570
+[11/36][41/200], train_loss: 0.113068
+[12/36][41/200], train_loss: 0.231456
+[13/36][41/200], train_loss: 0.205749
+[14/36][41/200], train_loss: 0.070563
+[15/36][41/200], train_loss: 0.027898
+[16/36][41/200], train_loss: 0.091520
+[17/36][41/200], train_loss: 0.091959
+[18/36][41/200], train_loss: 0.054158
+[19/36][41/200], train_loss: 0.027558
+[20/36][41/200], train_loss: 0.048425
+[21/36][41/200], train_loss: 0.056150
+[22/36][41/200], train_loss: 0.058647
+[23/36][41/200], train_loss: 0.044833
+[24/36][41/200], train_loss: 0.036704
+[25/36][41/200], train_loss: 0.038826
+[26/36][41/200], train_loss: 0.027653
+[27/36][41/200], train_loss: 0.033556
+[28/36][41/200], train_loss: 0.023795
+[29/36][41/200], train_loss: 0.015738
+[30/36][41/200], train_loss: 0.037979
+[31/36][41/200], train_loss: 0.069065
+[32/36][41/200], train_loss: 0.024594
+[33/36][41/200], train_loss: 0.032066
+[34/36][41/200], train_loss: 0.026293
+[35/36][41/200], train_loss: 0.070919
+[36/36][41/200], train_loss: 0.185104
+ACC: 0.9659
+SEN: 0.9622
+SPE: 0.9810
+AUC: 0.9966
+F1_Score: 0.9639
+confusionMatrix：
+tensor([[568,   9,   4],
+        [ 13, 288,   3],
+        [  6,   4, 250]], device='cuda:0')
+Epoch 41 average train loss: 0.107520
+Current epoch: 41
+ACC: 0.7063
+SEN: 0.7211
+SPE: 0.8506
+AUC: 0.8946
+F1_Score: 0.7169
+confusionMatrix：
+tensor([[95, 48,  2],
+        [13, 62,  1],
+        [ 8, 12, 45]], device='cuda:0')
+Current end epoch: 41 current accuracy: 0.706294 
+Best accuracy: 0.769231 at epoch 20
+Eopch:41 train acc:0.9659388661384583, test acc:0.7062937021255493
+----------
+epoch 42/200
+[1/36][42/200], train_loss: 0.061299
+[2/36][42/200], train_loss: 0.016107
+[3/36][42/200], train_loss: 0.033521
+[4/36][42/200], train_loss: 0.026614
+[5/36][42/200], train_loss: 0.115317
+[6/36][42/200], train_loss: 0.211371
+[7/36][42/200], train_loss: 0.108314
+[8/36][42/200], train_loss: 0.033007
+[9/36][42/200], train_loss: 0.044588
+[10/36][42/200], train_loss: 0.208590
+[11/36][42/200], train_loss: 0.143695
+[12/36][42/200], train_loss: 0.086375
+[13/36][42/200], train_loss: 0.047560
+[14/36][42/200], train_loss: 0.047404
+[15/36][42/200], train_loss: 0.226962
+[16/36][42/200], train_loss: 0.250041
+[17/36][42/200], train_loss: 0.078402
+[18/36][42/200], train_loss: 0.020709
+[19/36][42/200], train_loss: 0.020901
+[20/36][42/200], train_loss: 0.134109
+[21/36][42/200], train_loss: 0.177150
+[22/36][42/200], train_loss: 0.116404
+[23/36][42/200], train_loss: 0.048240
+[24/36][42/200], train_loss: 0.036653
+[25/36][42/200], train_loss: 0.075433
+[26/36][42/200], train_loss: 0.037745
+[27/36][42/200], train_loss: 0.062648
+[28/36][42/200], train_loss: 0.057756
+[29/36][42/200], train_loss: 0.044303
+[30/36][42/200], train_loss: 0.037452
+[31/36][42/200], train_loss: 0.018258
+[32/36][42/200], train_loss: 0.012959
+[33/36][42/200], train_loss: 0.030780
+[34/36][42/200], train_loss: 0.045025
+[35/36][42/200], train_loss: 0.088770
+[36/36][42/200], train_loss: 0.130238
+ACC: 0.9782
+SEN: 0.9769
+SPE: 0.9878
+AUC: 0.9989
+F1_Score: 0.9777
+confusionMatrix：
+tensor([[571,  10,   0],
+        [  8, 294,   2],
+        [  4,   1, 255]], device='cuda:0')
+Epoch 42 average train loss: 0.081519
+Current epoch: 42
+ACC: 0.7203
+SEN: 0.7254
+SPE: 0.8563
+AUC: 0.8892
+F1_Score: 0.7226
+confusionMatrix：
+tensor([[101,  41,   3],
+        [ 13,  61,   2],
+        [  9,  12,  44]], device='cuda:0')
+Current end epoch: 42 current accuracy: 0.720280 
+Best accuracy: 0.769231 at epoch 20
+Eopch:42 train acc:0.9781659245491028, test acc:0.7202796936035156
+----------
+epoch 43/200
+[1/36][43/200], train_loss: 0.039222
+[2/36][43/200], train_loss: 0.017362
+[3/36][43/200], train_loss: 0.028112
+[4/36][43/200], train_loss: 0.026396
+[5/36][43/200], train_loss: 0.057789
+[6/36][43/200], train_loss: 0.161567
+[7/36][43/200], train_loss: 0.134220
+[8/36][43/200], train_loss: 0.063161
+[9/36][43/200], train_loss: 0.042213
+[10/36][43/200], train_loss: 0.052347
+[11/36][43/200], train_loss: 0.064740
+[12/36][43/200], train_loss: 0.328186
+[13/36][43/200], train_loss: 0.049058
+[14/36][43/200], train_loss: 0.013540
+[15/36][43/200], train_loss: 0.062400
+[16/36][43/200], train_loss: 0.341750
+[17/36][43/200], train_loss: 0.498288
+[18/36][43/200], train_loss: 0.048405
+[19/36][43/200], train_loss: 0.024023
+[20/36][43/200], train_loss: 0.138387
+[21/36][43/200], train_loss: 0.414400
+[22/36][43/200], train_loss: 0.266553
+[23/36][43/200], train_loss: 0.083500
+[24/36][43/200], train_loss: 0.039657
+[25/36][43/200], train_loss: 0.362605
+[26/36][43/200], train_loss: 0.066225
+[27/36][43/200], train_loss: 0.114688
+[28/36][43/200], train_loss: 0.042264
+[29/36][43/200], train_loss: 0.021320
+[30/36][43/200], train_loss: 0.025117
+[31/36][43/200], train_loss: 0.025715
+[32/36][43/200], train_loss: 0.015063
+[33/36][43/200], train_loss: 0.019987
+[34/36][43/200], train_loss: 0.028955
+[35/36][43/200], train_loss: 0.039907
+[36/36][43/200], train_loss: 0.052951
+ACC: 0.9581
+SEN: 0.9560
+SPE: 0.9759
+AUC: 0.9970
+F1_Score: 0.9579
+confusionMatrix：
+tensor([[561,  13,   7],
+        [ 17, 286,   1],
+        [ 10,   0, 250]], device='cuda:0')
+Epoch 43 average train loss: 0.105835
+Current epoch: 43
+ACC: 0.7168
+SEN: 0.7232
+SPE: 0.8569
+AUC: 0.8888
+F1_Score: 0.7137
+confusionMatrix：
+tensor([[101,  37,   7],
+        [ 13,  57,   6],
+        [  7,  11,  47]], device='cuda:0')
+Current end epoch: 43 current accuracy: 0.716783 
+Best accuracy: 0.769231 at epoch 20
+Eopch:43 train acc:0.9580786228179932, test acc:0.7167832255363464
+----------
+epoch 44/200
+[1/36][44/200], train_loss: 0.048707
+[2/36][44/200], train_loss: 0.052238
+[3/36][44/200], train_loss: 0.075232
+[4/36][44/200], train_loss: 0.038630
+[5/36][44/200], train_loss: 0.045365
+[6/36][44/200], train_loss: 0.147827
+[7/36][44/200], train_loss: 0.070268
+[8/36][44/200], train_loss: 0.052649
+[9/36][44/200], train_loss: 0.069173
+[10/36][44/200], train_loss: 0.073625
+[11/36][44/200], train_loss: 0.039680
+[12/36][44/200], train_loss: 0.041562
+[13/36][44/200], train_loss: 0.153939
+[14/36][44/200], train_loss: 0.057598
+[15/36][44/200], train_loss: 0.015137
+[16/36][44/200], train_loss: 0.025237
+[17/36][44/200], train_loss: 0.190570
+[18/36][44/200], train_loss: 0.378656
+[19/36][44/200], train_loss: 0.089744
+[20/36][44/200], train_loss: 0.021959
+[21/36][44/200], train_loss: 0.014681
+[22/36][44/200], train_loss: 0.118057
+[23/36][44/200], train_loss: 0.612148
+[24/36][44/200], train_loss: 0.157854
+[25/36][44/200], train_loss: 0.030550
+[26/36][44/200], train_loss: 0.015716
+[27/36][44/200], train_loss: 0.189552
+[28/36][44/200], train_loss: 0.318243
+[29/36][44/200], train_loss: 0.226111
+[30/36][44/200], train_loss: 0.043375
+[31/36][44/200], train_loss: 0.017909
+[32/36][44/200], train_loss: 0.035583
+[33/36][44/200], train_loss: 0.124689
+[34/36][44/200], train_loss: 0.145176
+[35/36][44/200], train_loss: 0.063492
+[36/36][44/200], train_loss: 0.024357
+ACC: 0.9572
+SEN: 0.9538
+SPE: 0.9747
+AUC: 0.9976
+F1_Score: 0.9571
+confusionMatrix：
+tensor([[563,   9,   9],
+        [ 21, 283,   0],
+        [ 10,   0, 250]], device='cuda:0')
+Epoch 44 average train loss: 0.106258
+Current epoch: 44
+ACC: 0.7552
+SEN: 0.7299
+SPE: 0.8658
+AUC: 0.9015
+F1_Score: 0.7349
+confusionMatrix：
+tensor([[122,  19,   4],
+        [ 24,  44,   8],
+        [  7,   8,  50]], device='cuda:0')
+Current end epoch: 44 current accuracy: 0.755245 
+Best accuracy: 0.769231 at epoch 20
+Eopch:44 train acc:0.9572052359580994, test acc:0.7552447319030762
+----------
+epoch 45/200
+[1/36][45/200], train_loss: 0.011185
+[2/36][45/200], train_loss: 0.014830
+[3/36][45/200], train_loss: 0.076344
+[4/36][45/200], train_loss: 0.080590
+[5/36][45/200], train_loss: 0.086152
+[6/36][45/200], train_loss: 0.053310
+[7/36][45/200], train_loss: 0.014317
+[8/36][45/200], train_loss: 0.017031
+[9/36][45/200], train_loss: 0.043509
+[10/36][45/200], train_loss: 0.044278
+[11/36][45/200], train_loss: 0.028751
+[12/36][45/200], train_loss: 0.061591
+[13/36][45/200], train_loss: 0.054365
+[14/36][45/200], train_loss: 0.041223
+[15/36][45/200], train_loss: 0.006499
+[16/36][45/200], train_loss: 0.017849
+[17/36][45/200], train_loss: 0.034570
+[18/36][45/200], train_loss: 0.091132
+[19/36][45/200], train_loss: 0.166143
+[20/36][45/200], train_loss: 0.108933
+[21/36][45/200], train_loss: 0.005710
+[22/36][45/200], train_loss: 0.033918
+[23/36][45/200], train_loss: 0.014157
+[24/36][45/200], train_loss: 0.110735
+[25/36][45/200], train_loss: 0.411745
+[26/36][45/200], train_loss: 0.155197
+[27/36][45/200], train_loss: 0.071959
+[28/36][45/200], train_loss: 0.034676
+[29/36][45/200], train_loss: 0.292140
+[30/36][45/200], train_loss: 0.839668
+[31/36][45/200], train_loss: 0.187841
+[32/36][45/200], train_loss: 0.007867
+[33/36][45/200], train_loss: 0.103908
+[34/36][45/200], train_loss: 0.458865
+[35/36][45/200], train_loss: 0.605295
+[36/36][45/200], train_loss: 0.108073
+ACC: 0.9528
+SEN: 0.9514
+SPE: 0.9732
+AUC: 0.9946
+F1_Score: 0.9529
+confusionMatrix：
+tensor([[559,  20,   2],
+        [ 25, 277,   2],
+        [  3,   2, 255]], device='cuda:0')
+Epoch 45 average train loss: 0.124843
+Current epoch: 45
+ACC: 0.7343
+SEN: 0.6872
+SPE: 0.8441
+AUC: 0.8871
+F1_Score: 0.7079
+confusionMatrix：
+tensor([[127,  17,   1],
+        [ 30,  41,   5],
+        [ 16,   7,  42]], device='cuda:0')
+Current end epoch: 45 current accuracy: 0.734266 
+Best accuracy: 0.769231 at epoch 20
+Eopch:45 train acc:0.9528384208679199, test acc:0.7342657446861267
+----------
+epoch 46/200
+[1/36][46/200], train_loss: 0.033371
+[2/36][46/200], train_loss: 0.092887
+[3/36][46/200], train_loss: 0.445948
+[4/36][46/200], train_loss: 0.358334
+[5/36][46/200], train_loss: 0.111722
+[6/36][46/200], train_loss: 0.036586
+[7/36][46/200], train_loss: 0.070858
+[8/36][46/200], train_loss: 0.100150
+[9/36][46/200], train_loss: 0.309273
+[10/36][46/200], train_loss: 0.143550
+[11/36][46/200], train_loss: 0.026432
+[12/36][46/200], train_loss: 0.038075
+[13/36][46/200], train_loss: 0.085243
+[14/36][46/200], train_loss: 0.103217
+[15/36][46/200], train_loss: 0.075906
+[16/36][46/200], train_loss: 0.036817
+[17/36][46/200], train_loss: 0.062048
+[18/36][46/200], train_loss: 0.048843
+[19/36][46/200], train_loss: 0.017405
+[20/36][46/200], train_loss: 0.045782
+[21/36][46/200], train_loss: 0.012074
+[22/36][46/200], train_loss: 0.036474
+[23/36][46/200], train_loss: 0.019341
+[24/36][46/200], train_loss: 0.026442
+[25/36][46/200], train_loss: 0.073248
+[26/36][46/200], train_loss: 0.125684
+[27/36][46/200], train_loss: 0.083858
+[28/36][46/200], train_loss: 0.052271
+[29/36][46/200], train_loss: 0.017547
+[30/36][46/200], train_loss: 0.034299
+[31/36][46/200], train_loss: 0.249172
+[32/36][46/200], train_loss: 0.070670
+[33/36][46/200], train_loss: 0.037875
+[34/36][46/200], train_loss: 0.034740
+[35/36][46/200], train_loss: 0.011808
+[36/36][46/200], train_loss: 0.041489
+ACC: 0.9747
+SEN: 0.9720
+SPE: 0.9851
+AUC: 0.9985
+F1_Score: 0.9743
+confusionMatrix：
+tensor([[572,   7,   2],
+        [ 13, 289,   2],
+        [  5,   0, 255]], device='cuda:0')
+Epoch 46 average train loss: 0.088040
+Current epoch: 46
+ACC: 0.6538
+SEN: 0.6841
+SPE: 0.8330
+AUC: 0.8710
+F1_Score: 0.6609
+confusionMatrix：
+tensor([[78, 65,  2],
+        [ 2, 73,  1],
+        [11, 18, 36]], device='cuda:0')
+Current end epoch: 46 current accuracy: 0.653846 
+Best accuracy: 0.769231 at epoch 20
+Eopch:46 train acc:0.9746724963188171, test acc:0.6538461446762085
+----------
+epoch 47/200
+[1/36][47/200], train_loss: 0.117468
+[2/36][47/200], train_loss: 0.191214
+[3/36][47/200], train_loss: 0.198858
+[4/36][47/200], train_loss: 0.018051
+[5/36][47/200], train_loss: 0.008664
+[6/36][47/200], train_loss: 0.061084
+[7/36][47/200], train_loss: 0.303393
+[8/36][47/200], train_loss: 0.377662
+[9/36][47/200], train_loss: 0.239731
+[10/36][47/200], train_loss: 0.017401
+[11/36][47/200], train_loss: 0.010186
+[12/36][47/200], train_loss: 0.094043
+[13/36][47/200], train_loss: 0.260998
+[14/36][47/200], train_loss: 0.317592
+[15/36][47/200], train_loss: 0.030973
+[16/36][47/200], train_loss: 0.035742
+[17/36][47/200], train_loss: 0.078463
+[18/36][47/200], train_loss: 0.210629
+[19/36][47/200], train_loss: 0.319953
+[20/36][47/200], train_loss: 0.152336
+[21/36][47/200], train_loss: 0.013324
+[22/36][47/200], train_loss: 0.035467
+[23/36][47/200], train_loss: 0.021189
+[24/36][47/200], train_loss: 0.069043
+[25/36][47/200], train_loss: 0.266174
+[26/36][47/200], train_loss: 0.331490
+[27/36][47/200], train_loss: 0.092716
+[28/36][47/200], train_loss: 0.027289
+[29/36][47/200], train_loss: 0.017624
+[30/36][47/200], train_loss: 0.150286
+[31/36][47/200], train_loss: 0.441085
+[32/36][47/200], train_loss: 0.095949
+[33/36][47/200], train_loss: 0.049868
+[34/36][47/200], train_loss: 0.024848
+[35/36][47/200], train_loss: 0.006999
+[36/36][47/200], train_loss: 0.036995
+ACC: 0.9362
+SEN: 0.9302
+SPE: 0.9642
+AUC: 0.9942
+F1_Score: 0.9329
+confusionMatrix：
+tensor([[559,  22,   0],
+        [ 36, 260,   8],
+        [  0,   7, 253]], device='cuda:0')
+Epoch 47 average train loss: 0.131244
+Current epoch: 47
+ACC: 0.6573
+SEN: 0.7034
+SPE: 0.8393
+AUC: 0.8671
+F1_Score: 0.6748
+confusionMatrix：
+tensor([[73, 70,  2],
+        [ 1, 73,  2],
+        [ 6, 17, 42]], device='cuda:0')
+Current end epoch: 47 current accuracy: 0.657343 
+Best accuracy: 0.769231 at epoch 20
+Eopch:47 train acc:0.936244547367096, test acc:0.6573426723480225
+----------
+epoch 48/200
+[1/36][48/200], train_loss: 0.112066
+[2/36][48/200], train_loss: 0.189110
+[3/36][48/200], train_loss: 0.210007
+[4/36][48/200], train_loss: 0.046466
+[5/36][48/200], train_loss: 0.006374
+[6/36][48/200], train_loss: 0.028512
+[7/36][48/200], train_loss: 0.048957
+[8/36][48/200], train_loss: 0.177169
+[9/36][48/200], train_loss: 0.436463
+[10/36][48/200], train_loss: 0.136239
+[11/36][48/200], train_loss: 0.073858
+[12/36][48/200], train_loss: 0.034552
+[13/36][48/200], train_loss: 0.027141
+[14/36][48/200], train_loss: 0.185628
+[15/36][48/200], train_loss: 0.120235
+[16/36][48/200], train_loss: 0.328828
+[17/36][48/200], train_loss: 0.078228
+[18/36][48/200], train_loss: 0.061661
+[19/36][48/200], train_loss: 0.078844
+[20/36][48/200], train_loss: 0.303883
+[21/36][48/200], train_loss: 0.229321
+[22/36][48/200], train_loss: 0.250224
+[23/36][48/200], train_loss: 0.020103
+[24/36][48/200], train_loss: 0.019210
+[25/36][48/200], train_loss: 0.028648
+[26/36][48/200], train_loss: 0.079544
+[27/36][48/200], train_loss: 0.253104
+[28/36][48/200], train_loss: 0.175777
+[29/36][48/200], train_loss: 0.189054
+[30/36][48/200], train_loss: 0.039893
+[31/36][48/200], train_loss: 0.011998
+[32/36][48/200], train_loss: 0.046380
+[33/36][48/200], train_loss: 0.132074
+[34/36][48/200], train_loss: 0.219884
+[35/36][48/200], train_loss: 0.125676
+[36/36][48/200], train_loss: 0.073592
+ACC: 0.9424
+SEN: 0.9402
+SPE: 0.9682
+AUC: 0.9950
+F1_Score: 0.9408
+confusionMatrix：
+tensor([[553,  22,   6],
+        [ 23, 277,   4],
+        [  7,   4, 249]], device='cuda:0')
+Epoch 48 average train loss: 0.127186
+Current epoch: 48
+ACC: 0.7413
+SEN: 0.6889
+SPE: 0.8472
+AUC: 0.8979
+F1_Score: 0.7115
+confusionMatrix：
+tensor([[130,  14,   1],
+        [ 31,  41,   4],
+        [ 15,   9,  41]], device='cuda:0')
+Current end epoch: 48 current accuracy: 0.741259 
+Best accuracy: 0.769231 at epoch 20
+Eopch:48 train acc:0.9423580765724182, test acc:0.7412587404251099
+----------
+epoch 49/200
+[1/36][49/200], train_loss: 0.014071
+[2/36][49/200], train_loss: 0.011153
+[3/36][49/200], train_loss: 0.051064
+[4/36][49/200], train_loss: 0.099382
+[5/36][49/200], train_loss: 0.069753
+[6/36][49/200], train_loss: 0.029715
+[7/36][49/200], train_loss: 0.033394
+[8/36][49/200], train_loss: 0.030898
+[9/36][49/200], train_loss: 0.056356
+[10/36][49/200], train_loss: 0.063995
+[11/36][49/200], train_loss: 0.073851
+[12/36][49/200], train_loss: 0.050363
+[13/36][49/200], train_loss: 0.015498
+[14/36][49/200], train_loss: 0.011475
+[15/36][49/200], train_loss: 0.008596
+[16/36][49/200], train_loss: 0.010300
+[17/36][49/200], train_loss: 0.025482
+[18/36][49/200], train_loss: 0.036456
+[19/36][49/200], train_loss: 0.014547
+[20/36][49/200], train_loss: 0.049260
+[21/36][49/200], train_loss: 0.018379
+[22/36][49/200], train_loss: 0.116053
+[23/36][49/200], train_loss: 0.027977
+[24/36][49/200], train_loss: 0.004785
+[25/36][49/200], train_loss: 0.013862
+[26/36][49/200], train_loss: 0.004220
+[27/36][49/200], train_loss: 0.007603
+[28/36][49/200], train_loss: 0.019077
+[29/36][49/200], train_loss: 0.036300
+[30/36][49/200], train_loss: 0.017640
+[31/36][49/200], train_loss: 0.055962
+[32/36][49/200], train_loss: 0.026020
+[33/36][49/200], train_loss: 0.015969
+[34/36][49/200], train_loss: 0.014066
+[35/36][49/200], train_loss: 0.016324
+[36/36][49/200], train_loss: 0.012975
+ACC: 0.9974
+SEN: 0.9969
+SPE: 0.9986
+AUC: 0.9999
+F1_Score: 0.9970
+confusionMatrix：
+tensor([[580,   1,   0],
+        [  0, 304,   0],
+        [  1,   1, 258]], device='cuda:0')
+Epoch 49 average train loss: 0.032301
+Current epoch: 49
+ACC: 0.7552
+SEN: 0.7151
+SPE: 0.8585
+AUC: 0.8999
+F1_Score: 0.7304
+confusionMatrix：
+tensor([[128,  16,   1],
+        [ 28,  41,   7],
+        [ 12,   6,  47]], device='cuda:0')
+Current end epoch: 49 current accuracy: 0.755245 
+Best accuracy: 0.769231 at epoch 20
+Eopch:49 train acc:0.9973798990249634, test acc:0.7552447319030762
+----------
+epoch 50/200
+[1/36][50/200], train_loss: 0.004811
+[2/36][50/200], train_loss: 0.004194
+[3/36][50/200], train_loss: 0.021047
+[4/36][50/200], train_loss: 0.011537
+[5/36][50/200], train_loss: 0.011796
+[6/36][50/200], train_loss: 0.010321
+[7/36][50/200], train_loss: 0.001833
+[8/36][50/200], train_loss: 0.009584
+[9/36][50/200], train_loss: 0.004858
+[10/36][50/200], train_loss: 0.007630
+[11/36][50/200], train_loss: 0.004124
+[12/36][50/200], train_loss: 0.005066
+[13/36][50/200], train_loss: 0.003586
+[14/36][50/200], train_loss: 0.001893
+[15/36][50/200], train_loss: 0.001549
+[16/36][50/200], train_loss: 0.010222
+[17/36][50/200], train_loss: 0.006797
+[18/36][50/200], train_loss: 0.006611
+[19/36][50/200], train_loss: 0.003435
+[20/36][50/200], train_loss: 0.002867
+[21/36][50/200], train_loss: 0.001364
+[22/36][50/200], train_loss: 0.010341
+[23/36][50/200], train_loss: 0.002914
+[24/36][50/200], train_loss: 0.002827
+[25/36][50/200], train_loss: 0.009266
+[26/36][50/200], train_loss: 0.002322
+[27/36][50/200], train_loss: 0.007890
+[28/36][50/200], train_loss: 0.005374
+[29/36][50/200], train_loss: 0.001602
+[30/36][50/200], train_loss: 0.002813
+[31/36][50/200], train_loss: 0.002242
+[32/36][50/200], train_loss: 0.002367
+[33/36][50/200], train_loss: 0.002081
+[34/36][50/200], train_loss: 0.002826
+[35/36][50/200], train_loss: 0.004944
+[36/36][50/200], train_loss: 0.008930
+ACC: 1.0000
+SEN: 1.0000
+SPE: 1.0000
+AUC: 1.0000
+F1_Score: 1.0000
+confusionMatrix：
+tensor([[581,   0,   0],
+        [  0, 304,   0],
+        [  0,   0, 260]], device='cuda:0')
+Epoch 50 average train loss: 0.005663
+Current epoch: 50
+ACC: 0.7622
+SEN: 0.7155
+SPE: 0.8594
+AUC: 0.9005
+F1_Score: 0.7324
+confusionMatrix：
+tensor([[132,  11,   2],
+        [ 30,  39,   7],
+        [ 13,   5,  47]], device='cuda:0')
+Current end epoch: 50 current accuracy: 0.762238 
+Best accuracy: 0.769231 at epoch 20
+Eopch:50 train acc:1.0, test acc:0.7622377872467041
+----------
+epoch 51/200
+[1/36][51/200], train_loss: 0.003193
+[2/36][51/200], train_loss: 0.002332
+[3/36][51/200], train_loss: 0.007513
+[4/36][51/200], train_loss: 0.003514
+[5/36][51/200], train_loss: 0.001864
+[6/36][51/200], train_loss: 0.002792
+[7/36][51/200], train_loss: 0.001120
+[8/36][51/200], train_loss: 0.001829
+[9/36][51/200], train_loss: 0.003773
+[10/36][51/200], train_loss: 0.008610
+[11/36][51/200], train_loss: 0.006107
+[12/36][51/200], train_loss: 0.008090
+[13/36][51/200], train_loss: 0.003647
+[14/36][51/200], train_loss: 0.002538
+[15/36][51/200], train_loss: 0.002116
+[16/36][51/200], train_loss: 0.009163
+[17/36][51/200], train_loss: 0.006247
+[18/36][51/200], train_loss: 0.005417
+[19/36][51/200], train_loss: 0.002899
+[20/36][51/200], train_loss: 0.002193
+[21/36][51/200], train_loss: 0.000985
+[22/36][51/200], train_loss: 0.007122
+[23/36][51/200], train_loss: 0.002412
+[24/36][51/200], train_loss: 0.002297
+[25/36][51/200], train_loss: 0.008265
+[26/36][51/200], train_loss: 0.002077
+[27/36][51/200], train_loss: 0.005772
+[28/36][51/200], train_loss: 0.004645
+[29/36][51/200], train_loss: 0.001158
+[30/36][51/200], train_loss: 0.002423
+[31/36][51/200], train_loss: 0.001586
+[32/36][51/200], train_loss: 0.001606
+[33/36][51/200], train_loss: 0.001746
+[34/36][51/200], train_loss: 0.002287
+[35/36][51/200], train_loss: 0.003370
+[36/36][51/200], train_loss: 0.006919
+ACC: 1.0000
+SEN: 1.0000
+SPE: 1.0000
+AUC: 1.0000
+F1_Score: 1.0000
+confusionMatrix：
+tensor([[581,   0,   0],
+        [  0, 304,   0],
+        [  0,   0, 260]], device='cuda:0')
+Epoch 51 average train loss: 0.003878
+Current epoch: 51
+ACC: 0.7483
+SEN: 0.6978
+SPE: 0.8505
+AUC: 0.8989
+F1_Score: 0.7181
+confusionMatrix：
+tensor([[131,  13,   1],
+        [ 31,  39,   6],
+        [ 15,   6,  44]], device='cuda:0')
+Current end epoch: 51 current accuracy: 0.748252 
+Best accuracy: 0.769231 at epoch 20
+Eopch:51 train acc:1.0, test acc:0.748251736164093
+----------
+epoch 52/200
+[1/36][52/200], train_loss: 0.003669
+[2/36][52/200], train_loss: 0.002570
+[3/36][52/200], train_loss: 0.008524
+[4/36][52/200], train_loss: 0.003439
+[5/36][52/200], train_loss: 0.002240
+[6/36][52/200], train_loss: 0.002319
+[7/36][52/200], train_loss: 0.000765
+[8/36][52/200], train_loss: 0.001582
+[9/36][52/200], train_loss: 0.002896
+[10/36][52/200], train_loss: 0.006410
+[11/36][52/200], train_loss: 0.004551
+[12/36][52/200], train_loss: 0.006454
+[13/36][52/200], train_loss: 0.002968
+[14/36][52/200], train_loss: 0.002255
+[15/36][52/200], train_loss: 0.001988
+[16/36][52/200], train_loss: 0.007114
+[17/36][52/200], train_loss: 0.005757
+[18/36][52/200], train_loss: 0.004917
+[19/36][52/200], train_loss: 0.002781
+[20/36][52/200], train_loss: 0.001822
+[21/36][52/200], train_loss: 0.000789
+[22/36][52/200], train_loss: 0.004297
+[23/36][52/200], train_loss: 0.001816
+[24/36][52/200], train_loss: 0.001566
+[25/36][52/200], train_loss: 0.004945
+[26/36][52/200], train_loss: 0.001496
+[27/36][52/200], train_loss: 0.003071
+[28/36][52/200], train_loss: 0.004015
+[29/36][52/200], train_loss: 0.001085
+[30/36][52/200], train_loss: 0.001924
+[31/36][52/200], train_loss: 0.001266
+[32/36][52/200], train_loss: 0.001198
+[33/36][52/200], train_loss: 0.001303
+[34/36][52/200], train_loss: 0.001755
+[35/36][52/200], train_loss: 0.002585
+[36/36][52/200], train_loss: 0.005391
+ACC: 1.0000
+SEN: 1.0000
+SPE: 1.0000
+AUC: 1.0000
+F1_Score: 1.0000
+confusionMatrix：
+tensor([[581,   0,   0],
+        [  0, 304,   0],
+        [  0,   0, 260]], device='cuda:0')
+Epoch 52 average train loss: 0.003153
+Current epoch: 52
+ACC: 0.7483
+SEN: 0.6978
+SPE: 0.8505
+AUC: 0.8978
+F1_Score: 0.7181
+confusionMatrix：
+tensor([[131,  13,   1],
+        [ 31,  39,   6],
+        [ 15,   6,  44]], device='cuda:0')
+Current end epoch: 52 current accuracy: 0.748252 
+Best accuracy: 0.769231 at epoch 20
+Eopch:52 train acc:1.0, test acc:0.748251736164093
+----------
+epoch 53/200
+[1/36][53/200], train_loss: 0.003057
+[2/36][53/200], train_loss: 0.002168
+[3/36][53/200], train_loss: 0.007736
+[4/36][53/200], train_loss: 0.003138
+[5/36][53/200], train_loss: 0.002112
+[6/36][53/200], train_loss: 0.002024
+[7/36][53/200], train_loss: 0.000601
+[8/36][53/200], train_loss: 0.001497
+[9/36][53/200], train_loss: 0.002288
+[10/36][53/200], train_loss: 0.004808
+[11/36][53/200], train_loss: 0.003251
+[12/36][53/200], train_loss: 0.004658
+[13/36][53/200], train_loss: 0.002215
+[14/36][53/200], train_loss: 0.001696
+[15/36][53/200], train_loss: 0.001502
+[16/36][53/200], train_loss: 0.005156
+[17/36][53/200], train_loss: 0.004541
+[18/36][53/200], train_loss: 0.003804
+[19/36][53/200], train_loss: 0.002243
+[20/36][53/200], train_loss: 0.001564
+[21/36][53/200], train_loss: 0.000666
+[22/36][53/200], train_loss: 0.003239
+[23/36][53/200], train_loss: 0.001530
+[24/36][53/200], train_loss: 0.001237
+[25/36][53/200], train_loss: 0.003642
+[26/36][53/200], train_loss: 0.001209
+[27/36][53/200], train_loss: 0.002219
+[28/36][53/200], train_loss: 0.003440
+[29/36][53/200], train_loss: 0.001069
+[30/36][53/200], train_loss: 0.001592
+[31/36][53/200], train_loss: 0.001096
+[32/36][53/200], train_loss: 0.000958
+[33/36][53/200], train_loss: 0.000965
+[34/36][53/200], train_loss: 0.001364
+[35/36][53/200], train_loss: 0.002102
+[36/36][53/200], train_loss: 0.004268
+ACC: 1.0000
+SEN: 1.0000
+SPE: 1.0000
+AUC: 1.0000
+F1_Score: 1.0000
+confusionMatrix：
+tensor([[581,   0,   0],
+        [  0, 304,   0],
+        [  0,   0, 260]], device='cuda:0')
+Epoch 53 average train loss: 0.002518
+Current epoch: 53
+ACC: 0.7483
+SEN: 0.6999
+SPE: 0.8513
+AUC: 0.8984
+F1_Score: 0.7198
+confusionMatrix：
+tensor([[130,  14,   1],
+        [ 30,  40,   6],
+        [ 15,   6,  44]], device='cuda:0')
+Current end epoch: 53 current accuracy: 0.748252 
+Best accuracy: 0.769231 at epoch 20
+Eopch:53 train acc:1.0, test acc:0.748251736164093
+Cross-testation fiveFold_5 end:
+Training completed, recorder.best_accuracy: 0.769231 at epoch: 20
+######################################################################################
+
