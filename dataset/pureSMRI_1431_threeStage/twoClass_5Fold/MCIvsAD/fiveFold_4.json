@@ -1,0 +1,4252 @@
+{
+    "metainfo": {
+        "classes": {
+            "MCI": 0,
+            "AD": 1
+        },
+        "parent_folder": [
+            "/my_data/dataset/4_processed_files"
+        ],
+        "public_modality": [
+            "sMRI"
+        ],
+        "add_train_modality": [],
+        "test_length": 141,
+        "train_length": 564
+    },
+    "test_list": [
+        {
+            "sMRI": "sMRI/0915_094_S_2201-20171006_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1038_116_S_4199-20110824_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 59.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1145_128_S_5066-20121221_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 79.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1069_123_S_2363-20111115_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 59.5,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/1125_128_S_2151-20101116_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1124_128_S_2130-20101102_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1048_116_S_4898-20120808_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1138_128_S_4742-20120531_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0881_082_S_1377-20080617_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.0,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0965_100_S_1062-20090407_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.4,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0901_082_S_6690-20190430_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 67.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1035_116_S_4167-20110810_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0943_099_S_2042-20110223_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.2,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0927_094_S_6736-20190712_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 81.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1135_128_S_4636-20120327_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1045_116_S_4635-20120329_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1057_116_S_6543-20180821_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1013_114_S_6368-20180703_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1088_126_S_1221-20090127_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.3,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0854_073_S_4540-20120210_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0958_099_S_4498-20120315_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1076_123_S_4806-20120621_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 56.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1091_127_S_0431-20060517_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.2,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0914_094_S_1402-20070510_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.4,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0910_094_S_1164-20061211_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.6,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1031_116_S_2270-20110112_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 59.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1086_126_S_0784-20061005_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.0,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0865_073_S_4986-20121004_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 85.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0869_073_S_5090-20130207_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 58.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0967_100_S_2351-20110513_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 88.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0939_099_S_0492-20060525_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 87.5,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0893_082_S_5184-20130522_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0852_073_S_4403-20111128_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0849_073_S_4360-20111104_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 59.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1024_116_S_0392-20060626_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0908_094_S_1090-20061204_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.4,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0998_114_S_0374-20060410_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.0,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/1006_114_S_6039-20170721_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 56.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0861_073_S_4777-20120601_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 84.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1066_123_S_0162-20060208_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.9,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/1025_116_S_0487-20060810_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1072_123_S_4170-20110827_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1063_123_S_0094-20051228_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.8,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0888_082_S_4244-20111019_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 91.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1039_116_S_4209-20110829_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0859_073_S_4748-20120518_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1071_123_S_4127-20110803_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1129_128_S_4571-20120310_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1062_123_S_0091-20051223_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 62.4,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/1123_128_S_2123-20110505_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 64.6,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0867_073_S_5016-20121025_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 64.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0913_094_S_1397-20070426_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 55.2,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/1046_116_S_4732-20120531_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1040_116_S_4338-20111102_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0942_099_S_1144-20061219_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.5,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1028_116_S_1083-20061221_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1084_126_S_0606-20060814_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 68.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0956_099_S_4475-20120201_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 84.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1137_128_S_4671-20120502_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 81.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1005_114_S_5047-20121207_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0883_082_S_2121-20110518_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.5,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/1120_128_S_2036-20110317_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.4,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/1094_127_S_0754-20060905_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 67.7,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0863_073_S_4825-20120626_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0953_099_S_4202-20110927_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0933_098_S_2079-20111024_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.8,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/1018_114_S_6595-20181116_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0938_099_S_0470-20060510_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.8,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1132_128_S_4603-20120407_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 59.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1128_128_S_4553-20120220_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0937_099_S_0372-20060421_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.1,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/1121_128_S_2045-20110321_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.0,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/1074_123_S_4526-20120209_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0866_073_S_4995-20121011_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1080_123_S_6891-20201027_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1022_116_S_0370-20060424_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.6,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0909_094_S_1102-20061124_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.8,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0957_099_S_4480-20120217_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0944_099_S_2063-20110418_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.9,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/1119_128_S_2011-20100713_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1117_128_S_2002-20101213_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.5,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0973_100_S_4970-20121022_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 87.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0835_073_S_1207-20070215_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 56.6,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/1077_123_S_4904-20120906_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1075_123_S_4780-20120621_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1012_114_S_6347-20180526_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1127_128_S_2314-20110301_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1003_114_S_4379-20111207_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 88.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1139_128_S_4745-20120607_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 61.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1001_114_S_0979-20061101_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.3,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0848_073_S_4312-20111017_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1002_114_S_2392-20120206_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.1,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/1136_128_S_4653-20120418_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 80.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0989_109_S_1157-20070103_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.0,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1061_123_S_0088-20060106_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 65.7,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1096_127_S_1382-20070316_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 64.3,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0951_099_S_4124-20110728_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1049_116_S_6100-20171031_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0959_099_S_4565-20120327_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1126_128_S_2220-20101214_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1070_123_S_4096-20110728_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 84.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0907_094_S_1027-20061026_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.1,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/1036_116_S_4175-20110815_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1095_127_S_0844-20061009_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.4,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0882_082_S_2099-20110406_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 84.4,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/1068_123_S_2055-20110307_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.8,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/0931_098_S_0884-20061216_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.1,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0879_082_S_1079-20070611_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.7,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0991_109_S_4380-20180312_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 78.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1087_126_S_0891-20080930_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 81.4,
+            "MMSE": 18.0
+        },
+        {
+            "sMRI": "sMRI/0945_099_S_2146-20110519_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.0,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0952_099_S_4157-20110823_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 81.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0971_100_S_4556-20120426_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1079_123_S_6825-20190924_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1043_116_S_4537-20120216_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0983_109_S_0777-20060907_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.3,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0892_082_S_5029-20121114_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0997_114_S_0228-20060216_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.3,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0853_073_S_4443-20111222_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1037_116_S_4195-20110831_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 62.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0955_099_S_4463-20120202_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0970_100_S_4512-20120418_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0884_082_S_2307-20111007_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 79.3,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0990_109_S_1192-20070111_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.7,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0946_099_S_2205-20110616_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 85.4,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0960_099_S_4994-20121203_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0972_100_S_4884-20130206_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0928_098_S_0149-20060122_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 87.8,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/1118_128_S_2003-20100701_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0891_082_S_5014-20121101_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1144_128_S_4842-20120713_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0982_100_S_6713-20190418_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0857_073_S_4614-20120316_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0916_094_S_2238-20180125_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0947_099_S_4022-20110425_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 86.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1004_114_S_4404-20120120_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1044_116_S_4625-20120329_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 63.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0974_100_S_5106-20130422_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0954_099_S_4205-20111007_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 81.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0864_073_S_4853-20120711_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1122_128_S_2057-20100902_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 64.3,
+            "MMSE": -1.0
+        }
+    ],
+    "train_list": [
+        {
+            "sMRI": "sMRI/1142_128_S_4792-20120618_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0190_013_S_0996-20061106_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 91.0,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0449_032_S_2247-20110816_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.9,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0514_035_S_4414-20120319_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0291_019_S_4680-20120424_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0242_016_S_0991-20061101_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.4,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0656_041_S_5026-20121120_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0496_033_S_6824-20191001_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0632_041_S_4004-20110418_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0246_016_S_5057-20190717_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 81.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1188_130_S_5059-20130206_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0319_021_S_0753-20060911_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 65.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0396_024_S_4392-20120103_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1185_130_S_4990-20121026_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0135_009_S_5252-20130718_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 56.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0677_052_S_4944-20180420_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0822_072_S_4539-20120305_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0008_002_S_1018-20081212_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.8,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/0436_031_S_4194-20110901_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0393_024_S_4186-20110902_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0424_031_S_0773-20060801_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.5,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0717_067_S_0812-20061002_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.7,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/1248_136_S_4408-20120127_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0802_072_S_2083-20110328_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 89.0,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/0562_036_S_4714-20120511_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 64.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0289_019_S_4477-20120125_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1425_941_S_6854-20200214_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0293_019_S_5012-20121105_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1281_137_S_4756-20120531_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1250_136_S_4517-20120328_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0127_009_S_4741-20120612_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 61.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0558_036_S_4430-20111223_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 80.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0077_006_S_0547-20060629_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.8,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0686_053_S_4813-20120716_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1223_135_S_4281-20111014_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1184_130_S_4984-20121017_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0041_003_S_1059-20061109_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.6,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0507_035_S_2074-20110527_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.6,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/1232_135_S_4676-20120419_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0152_011_S_0183-20060303_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.5,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1186_130_S_4997-20121119_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 60.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0374_023_S_4502-20120306_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 58.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0778_068_S_4968-20130215_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0770_068_S_4217-20110906_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0843_073_S_4216-20110831_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 56.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0410_027_S_0404-20060516_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 87.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0838_073_S_2190-20110613_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 83.0,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0592_037_S_4214-20110912_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0159_011_S_4366-20111114_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0652_041_S_4876-20120814_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1176_130_S_4605-20120326_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 84.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1253_136_S_4836-20120806_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0297_019_S_6585-20181018_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 62.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1384_305_S_6850-20200129_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0479_033_S_1283-20070207_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 59.9,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0766_068_S_4061-20110603_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 64.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0748_067_S_7033-20220103_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 59.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1283_137_S_4816-20120814_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0736_067_S_5160-20130517_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 84.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0550_036_S_0759-20060822_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 81.8,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0697_057_S_1379-20070321_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 87.9,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0589_037_S_4030-20110505_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1313_141_S_4976-20121013_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1265_137_S_1041-20061109_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.0,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0296_019_S_6573-20180911_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 87.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0102_007_S_1304-20070213_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.8,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0647_041_S_4510-20120210_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0821_072_S_4522-20120217_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0161_011_S_4827-20120702_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0532_035_S_6927-20220713_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 60.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0281_018_S_4868-20120727_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0277_018_S_4597-20120314_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0805_072_S_2164-20110505_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.5,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0837_073_S_2182-20120207_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.8,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/1392_941_S_2060-20100908_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0269_018_S_2133-20110802_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.4,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/1173_130_S_4468-20120201_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0125_009_S_4564-20120309_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1149_129_S_4220-20120921_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.3,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0672_051_S_4980-20121029_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 87.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0733_067_S_4767-20120611_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0683_053_S_4557-20120308_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 83.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1233_135_S_4689-20120427_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0197_013_S_4595-20120420_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1179_130_S_4817-20120703_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0163_011_S_4893-20120910_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0208_014_S_0356-20060405_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.3,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0800_072_S_2070-20100907_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 57.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0248_016_S_6708-20190326_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 56.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0365_023_S_4034-20110607_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1287_137_S_6812-20191108_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0188_013_S_0592-20060817_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.2,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/1355_168_S_6142-20171218_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0780_068_S_5206-20130626_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1269_137_S_4331-20111116_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1167_130_S_4294-20111121_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0207_014_S_0328-20060322_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.7,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0636_041_S_4051-20110622_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0158_011_S_4235-20110919_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0328_022_S_0219-20060317_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.6,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/1211_131_S_0497-20060607_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.8,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0779_068_S_5146-20130515_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0067_005_S_0221-20060222_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 67.5,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/1180_130_S_4883-20120810_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0268_018_S_0682-20080722_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.1,
+            "MMSE": 14.0
+        },
+        {
+            "sMRI": "sMRI/1299_141_S_1137-20061219_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 81.6,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0356_023_S_0139-20060124_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 65.9,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0653_041_S_4877-20120830_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 84.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0737_067_S_5205-20130617_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 59.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0598_037_S_4706-20120510_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0571_036_S_5112-20130506_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1426_941_S_6962-20210713_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0700_062_S_0535-20060518_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.8,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0762_068_S_2194-20110617_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.7,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/0329_022_S_0543-20060522_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.2,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0727_067_S_4072-20110706_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1335_153_S_4297-20111031_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 83.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0813_072_S_4226-20110926_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0420_029_S_0999-20061130_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.9,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/1300_141_S_2210-20110809_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 80.7,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0548_036_S_0577-20060526_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.5,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0767_068_S_4067-20110606_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0577_036_S_6231-20180305_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0564_036_S_4736-20120530_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1330_153_S_4133-20110728_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 79.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1267_137_S_4299-20111102_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0480_033_S_1285-20070206_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.1,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0394_024_S_4223-20110912_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0478_033_S_1281-20070207_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.7,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/1178_130_S_4730-20120523_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 81.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0761_068_S_2193-20110725_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.3,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0330_022_S_2087-20110601_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.3,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0024_002_S_4473-20120210_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0772_068_S_4332-20111114_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0415_027_S_4757-20140625_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.2,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1257_136_S_4993-20121024_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0205_013_S_6975-20211221_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0132_009_S_5027-20121129_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1098_128_S_0216-20060912_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.0,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0649_041_S_4629-20120417_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0807_072_S_4057-20110607_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 81.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0690_057_S_0474-20060503_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.4,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0708_067_S_0020-20051012_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.4,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0569_036_S_4899-20121015_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1402_941_S_4420-20120328_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 81.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0650_041_S_4720-20120514_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1301_141_S_2333-20110913_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.6,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/0193_013_S_1205-20070111_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 83.1,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/1326_153_S_2109-20110519_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.9,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0714_067_S_0110-20060125_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.7,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/1308_141_S_4456-20120117_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0013_002_S_4171-20110808_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0178_012_S_4012-20110720_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0824_072_S_4610-20120330_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0495_033_S_6705-20190326_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0808_072_S_4063-20110617_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 59.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0757_068_S_2168-20110524_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.9,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0827_072_S_4769-20120712_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 58.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0425_031_S_1209-20070131_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0019_002_S_4251-20110926_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0584_037_S_0627-20060706_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 58.6,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0290_019_S_4549-20120423_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1383_305_S_6810-20191102_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0718_067_S_0828-20060905_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.5,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0719_067_S_1185-20070103_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 62.1,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0512_035_S_4114-20110715_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 55.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0398_024_S_4674-20120420_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 78.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0261_016_S_7039-20220120_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 61.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0278_018_S_4696-20120501_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1289_141_S_0340-20060327_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 83.9,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0602_037_S_5162-20130503_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1268_137_S_4303-20111102_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 80.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0346_022_S_6796-20190903_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0456_032_S_4823-20120705_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0568_036_S_4894-20120809_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 60.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0640_041_S_4143-20110728_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1171_130_S_4415-20120113_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0283_018_S_5240-20130723_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 62.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0331_022_S_2167-20110628_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 81.5,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0836_073_S_2153-20110617_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.3,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0326_022_S_0129-20060206_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.3,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/1256_136_S_4956-20121016_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0678_052_S_6305-20180504_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 68.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0655_041_S_4989-20121019_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0192_013_S_1161-20061220_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.9,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0361_023_S_1289-20070212_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.5,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/1311_141_S_4819-20120721_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 84.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0670_051_S_1296-20070212_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.0,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0388_024_S_1307-20070223_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.4,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0784_070_S_4793-20120625_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 85.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0775_068_S_4431-20120206_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0078_006_S_0653-20060705_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.5,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0518_035_S_4784-20120625_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 81.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1280_137_S_4678-20120503_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1150_129_S_4287-20121030_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.0,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0294_019_S_5019-20121107_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 63.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0221_014_S_4328-20111107_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1403_941_S_4764-20120601_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1182_130_S_4971-20121017_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0095_006_S_6689-20190227_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0027_002_S_5018-20121108_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0735_067_S_4918-20120921_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0121_009_S_4359-20111205_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0371_023_S_4243-20111109_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 79.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0184_012_S_4849-20120724_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1097_128_S_0167-20060915_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.1,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0399_024_S_4905-20120816_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0023_002_S_4447-20120117_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1146_128_S_5123-20121220_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0153_011_S_2274-20110818_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 64.7,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/1187_130_S_5006-20121114_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 68.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0373_023_S_4501-20120322_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0343_022_S_5004-20121106_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 64.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0648_041_S_4513-20120229_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0015_002_S_4219-20110914_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 79.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0368_023_S_4122-20110826_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0600_037_S_4770-20120709_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0696_057_S_1373-20070321_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.5,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0654_041_S_4974-20121015_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1284_137_S_4852-20120801_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 64.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0279_018_S_4733-20120523_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0685_053_S_4661-20120528_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0499_033_S_7066-20220418_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0072_005_S_0814-20060830_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.1,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1293_141_S_0790-20060910_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 83.4,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0087_006_S_4515-20120207_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0195_013_S_2324-20111006_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 57.0,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0217_014_S_4039-20110602_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 56.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1234_135_S_4710-20120510_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0189_013_S_0699-20060828_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.2,
+            "MMSE": 18.0
+        },
+        {
+            "sMRI": "sMRI/0162_011_S_4845-20120712_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 68.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0123_009_S_4530-20120214_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0551_036_S_0760-20060825_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.5,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0487_033_S_5013-20130305_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 68.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1148_129_S_4073-20120723_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.4,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/0595_037_S_4381-20120118_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 55.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0734_067_S_4782-20120726_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0176_012_S_0689-20080723_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 65.7,
+            "MMSE": 10.0
+        },
+        {
+            "sMRI": "sMRI/0597_037_S_4432-20120201_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 61.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0367_023_S_4115-20110830_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0804_072_S_2116-20110425_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.3,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0131_009_S_5000-20121026_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1164_130_S_2402-20110916_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0426_031_S_2017-20100707_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0815_072_S_4390-20111208_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1102_128_S_0266-20061003_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.1,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/1307_141_S_4438-20120106_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1166_130_S_4250-20111005_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 78.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0703_062_S_0730-20060719_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.7,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0630_041_S_1391-20070329_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.2,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0167_011_S_6303-20180412_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1282_137_S_4815-20120802_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0689_053_S_7109-20220922_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0642_041_S_4271-20111007_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 61.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1309_141_S_4711-20120512_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0119_009_S_2381-20111208_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.8,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0321_021_S_1109-20061205_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.9,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1396_941_S_4187-20111128_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0797_072_S_2026-20110129_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 83.1,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/1165_130_S_2403-20120416_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 79.8,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0448_032_S_2240-20110615_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 78.7,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/1159_130_S_1201-20070115_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.6,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0527_035_S_6660-20190204_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0151_011_S_0053-20051114_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.2,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/1221_133_S_1055-20061207_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1160_130_S_1290-20070207_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.4,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0705_062_S_0793-20060824_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.0,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/1244_136_S_0300-20060509_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 56.5,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0089_006_S_4867-20120807_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0565_036_S_4740-20120525_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 88.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1162_130_S_2373-20111101_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 79.6,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/1337_153_S_4621-20120328_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1108_128_S_0528-20060517_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.9,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0799_072_S_2037-20110217_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.4,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0728_067_S_4113-20110719_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1305_141_S_4423-20111220_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0400_024_S_5054-20121220_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0593_037_S_4302-20111026_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0820_072_S_4465-20120214_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 61.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0725_067_S_2304-20110914_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.0,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/1175_130_S_4589-20120319_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0264_018_S_0335-20080624_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.8,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0437_031_S_4203-20110831_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0504_035_S_0341-20060406_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.1,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/1401_941_S_4377-20120104_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0710_067_S_0029-20051014_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 64.2,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0447_032_S_2119-20110428_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.4,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/0428_031_S_2022-20110215_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.7,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0280_018_S_4809-20120622_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 78.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0782_070_S_4708-20120515_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 83.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0224_014_S_4668-20120426_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1276_137_S_4596-20120319_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0025_002_S_4654-20120405_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0026_002_S_4799-20120621_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1295_141_S_0852-20060925_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.4,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0439_031_S_4476-20120127_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 88.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0214_014_S_1095-20061203_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.4,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0006_002_S_0938-20061005_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.3,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0759_068_S_2184-20110713_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 81.2,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0442_031_S_4721-20120514_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 85.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0553_036_S_1001-20061120_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.4,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0298_019_S_6712-20190403_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 90.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0781_070_S_4692-20120508_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 83.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0771_068_S_4274-20111010_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1334_153_S_4165-20110817_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 80.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0511_035_S_4085-20110706_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 55.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0243_016_S_1263-20070227_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 64.9,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0682_053_S_2396-20120207_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.9,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0223_014_S_4615-20120329_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0392_024_S_4169-20110812_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0219_014_S_4079-20110616_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 64.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0840_073_S_2225-20110808_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.2,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0370_023_S_4241-20120201_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0765_068_S_2316-20111003_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.1,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0376_023_S_5120-20130515_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 81.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0005_002_S_0816-20060830_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.9,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0639_041_S_4138-20110722_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 88.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0389_024_S_2239-20110531_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.1,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/0680_053_S_1044-20061026_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 65.6,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0846_073_S_4300-20111012_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 80.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0073_005_S_0929-20061002_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.1,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/0061_003_S_6833-20191107_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 87.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0421_029_S_1056-20061127_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.2,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/1183_130_S_4982-20121023_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 58.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0726_067_S_4054-20110525_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1327_153_S_2148-20110526_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.4,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/1172_130_S_4417-20120118_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0344_022_S_6013-20170426_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 60.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0730_067_S_4212-20110906_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 64.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0526_035_S_6650-20181214_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0481_033_S_1308-20070208_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.7,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0010_002_S_2010-20110122_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.6,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0082_006_S_4153-20110803_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0443_031_S_4947-20120928_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0587_037_S_4015-20110405_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0777_068_S_4914-20120904_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0698_057_S_2398-20110705_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0823_072_S_4606-20120402_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1261_137_S_0438-20060427_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.0,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/1270_137_S_4351-20111202_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0601_037_S_4879-20120906_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1212_131_S_0691-20060726_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 64.5,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/1238_135_S_5015-20121113_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0007_002_S_0955-20061011_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.3,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0317_021_S_0642-20060628_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.6,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/1297_141_S_1024-20061119_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 68.7,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/1304_141_S_4232-20110924_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0342_022_S_4922-20120925_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0322_022_S_0007-20050913_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.5,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0133_009_S_5037-20130108_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 67.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1237_135_S_4863-20120801_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0435_031_S_4149-20110805_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0012_002_S_2073-20110309_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 64.0,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/1302_141_S_4053-20110524_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0645_041_S_4495-20120203_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0687_053_S_5070-20130131_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0834_073_S_0565-20060621_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.7,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0758_068_S_2171-20110621_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.0,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/0397_024_S_4622-20120330_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0441_031_S_4590-20120315_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0430_031_S_4005-20110404_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0801_072_S_2072-20110328_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.5,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0573_036_S_5210-20130612_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1310_141_S_4803-20120623_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1340_153_S_6665-20190108_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0829_072_S_4941-20121010_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1181_130_S_4925-20120926_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0724_067_S_2301-20110830_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.4,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0101_007_S_1248-20070125_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.9,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0509_035_S_2199-20101129_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 83.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0631_041_S_1435-20070907_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.4,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0196_013_S_4236-20111013_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 58.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0847_073_S_4311-20111017_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0253_016_S_6839-20191203_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1367_168_S_6735-20190607_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0841_073_S_2264-20110721_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.0,
+            "MMSE": 27.0
+        },
+        {
+            "sMRI": "sMRI/1266_137_S_4227-20110921_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0798_072_S_2027-20110218_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.6,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0610_037_S_6216-20180503_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 83.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0334_022_S_2382-20110621_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0215_014_S_2185-20110707_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.7,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0271_018_S_2155-20110701_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.6,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0817_072_S_4394-20111228_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1226_135_S_4406-20111207_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 79.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1141_128_S_4774-20120621_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0783_070_S_4719-20120521_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0729_067_S_4184-20110908_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0516_035_S_4582-20120320_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0489_033_S_5087-20130214_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 64.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1163_130_S_2391-20110617_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1303_141_S_4160-20110904_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0220_014_S_4263-20111006_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0673_051_S_5005-20121106_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0768_068_S_4134-20110728_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0722_067_S_2195-20110613_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.7,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0017_002_S_4229-20110921_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1161_130_S_1337-20070305_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.5,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0354_023_S_0084-20060104_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.4,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0414_027_S_1254-20070131_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.4,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0785_070_S_4798-20120628_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0129_009_S_4903-20120911_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0375_023_S_4796-20120822_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0702_062_S_0690-20060718_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.8,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0476_033_S_1087-20061120_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.7,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/1368_168_S_6843-20200114_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 68.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0462_032_S_6602-20181011_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 63.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1228_135_S_4489-20120202_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0333_022_S_2379-20111206_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.6,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0003_002_S_0619-20060601_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.6,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0209_014_S_0357-20060404_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.0,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0124_009_S_4543-20120301_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 70.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0216_014_S_2308-20110908_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.5,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0118_009_S_2208-20110629_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.5,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0845_073_S_4259-20111007_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1277_137_S_4623-20120404_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 61.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0575_036_S_6179-20180123_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0384_023_S_6661-20190107_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0360_023_S_1262-20070209_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.8,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1312_141_S_4907-20120909_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1260_137_S_0366-20060510_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 56.7,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0760_068_S_2187-20110609_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 58.4,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0042_003_S_1257-20070301_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.1,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0166_011_S_4949-20120919_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0429_031_S_2233-20110613_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 56.2,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0513_035_S_4256-20111214_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0160_011_S_4547-20120229_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1306_141_S_4426-20111202_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0563_036_S_4715-20120319_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 56.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0806_072_S_4007-20110308_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 78.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0377_023_S_5241-20130809_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 88.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0355_023_S_0093-20060103_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.4,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0422_031_S_0554-20060523_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.7,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0611_037_S_6230-20180601_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 83.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0340_022_S_4444-20120214_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0643_041_S_4375-20111216_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0057_003_S_6264-20180604_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 55.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0018_002_S_4237-20110926_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 81.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0427_031_S_2018-20110131_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.1,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0556_036_S_2380-20120213_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.7,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0011_002_S_2043-20100831_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0411_027_S_0850-20060906_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.2,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0561_036_S_4562-20120412_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0811_072_S_4131-20110725_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1115_128_S_1409-20070619_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 65.9,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0316_021_S_0343-20060406_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.9,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/1243_136_S_0299-20060501_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 89.2,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/1116_128_S_1430-20070907_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 83.6,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/1177_130_S_4660-20120418_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0098_007_S_0316-20060329_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.9,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0203_013_S_6768-20190719_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0434_031_S_4042-20110512_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 57.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1231_135_S_4657-20120412_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0180_012_S_4188-20110907_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 77.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1195_130_S_6072-20170825_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 89.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0164_011_S_4906-20120813_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0688_053_S_5208-20130617_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 68.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0353_023_S_0083-20051214_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.3,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0366_023_S_4035-20110728_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0074_005_S_1341-20070307_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.7,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0814_072_S_4383-20111209_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0130_009_S_4958-20121004_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0506_035_S_2061-20110404_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.7,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0165_011_S_4912-20120822_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0083_006_S_4192-20110927_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0671_051_S_4929-20120918_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0545_035_S_7120-20230208_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 64.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0201_013_S_4985-20120705_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 78.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1210_131_S_0457-20060503_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.8,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0812_072_S_4206-20110902_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0764_068_S_2315-20111018_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.0,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0651_041_S_4874-20120802_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 57.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0720_067_S_1253-20070305_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 62.7,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0202_013_S_5071-20130212_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0413_027_S_1082-20061213_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 69.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0143_011_S_0003-20050901_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 81.3,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0560_036_S_4538-20120305_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 78.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1278_137_S_4631-20120430_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0828_072_S_4871-20120809_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 66.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0455_032_S_4755-20120702_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0731_067_S_4310-20111027_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0103_007_S_1339-20070222_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.5,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/1111_128_S_0740-20060731_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.3,
+            "MMSE": 22.0
+        },
+        {
+            "sMRI": "sMRI/0412_027_S_1081-20070208_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1174_130_S_4542-20120302_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 79.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0146_011_S_0010-20051107_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.0,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0721_067_S_2084-20100930_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 63.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1296_141_S_0853-20060827_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.8,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0432_031_S_4029-20110426_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 61.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0695_057_S_1371-20070321_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.4,
+            "MMSE": 26.0
+        },
+        {
+            "sMRI": "sMRI/0713_067_S_0076-20051206_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.4,
+            "MMSE": 25.0
+        },
+        {
+            "sMRI": "sMRI/0613_037_S_6377-20180706_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 81.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1333_153_S_4159-20110817_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0570_036_S_5063-20130116_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0699_057_S_4110-20110708_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0555_036_S_2378-20120209_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.7,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/1189_130_S_5231-20130716_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0270_018_S_2138-20110908_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 82.6,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0809_072_S_4102-20110720_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1235_135_S_4722-20120516_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0128_009_S_4814-20120629_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0301_020_S_0213-20060322_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 63.1,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0267_018_S_0633-20080728_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.5,
+            "MMSE": 15.0
+        },
+        {
+            "sMRI": "sMRI/0395_024_S_4280-20111018_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0566_036_S_4820-20120717_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1110_128_S_0701-20060714_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 77.9,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0141_010_S_5163-20130529_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 66.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0629_041_S_1368-20070305_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 75.3,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0776_068_S_4859-20120803_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 72.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1241_136_S_0194-20060410_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 80.6,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/1328_153_S_4077-20110615_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1112_128_S_0805-20060906_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 85.9,
+            "MMSE": 21.0
+        },
+        {
+            "sMRI": "sMRI/0591_037_S_4146-20110907_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 61.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0088_006_S_4546-20120305_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0287_019_S_4293-20111020_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0134_009_S_5224-20130711_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0681_053_S_2357-20111102_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.3,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/1274_137_S_4536-20120222_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 78.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0488_033_S_5017-20130313_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1170_130_S_4405-20120113_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0826_072_S_4694-20120615_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 65.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1225_135_S_4356-20111110_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1254_136_S_4848-20121015_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1255_136_S_4932-20121022_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 78.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1222_133_S_1170-20070116_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 73.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0185_012_S_4987-20121102_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0803_072_S_2093-20110415_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 60.2,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/1140_128_S_4772-20120613_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0839_073_S_2191-20110708_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.4,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0538_035_S_7001-20211021_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 70.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1236_135_S_4723-20120516_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 69.5,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0586_037_S_4001-20110221_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 88.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0498_033_S_6976-20210702_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 57.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0844_073_S_4230-20110909_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0200_013_S_4917-20120831_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1106_128_S_0517-20060526_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.0,
+            "MMSE": 20.0
+        },
+        {
+            "sMRI": "sMRI/0469_033_S_0733-20060818_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 57.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1379_301_S_6592-20181023_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 71.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1224_135_S_4309-20111026_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0819_072_S_4462-20120202_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 71.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0732_067_S_4728-20120601_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 82.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0818_072_S_4445-20120117_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0468_033_S_0724-20060811_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 78.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1393_941_S_4036-20110510_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 74.1,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1245_136_S_0426-20060516_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 79.7,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0599_037_S_4750-20120702_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 83.8,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0199_013_S_4768-20120626_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 61.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0108_007_S_4637-20171010_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1246_136_S_4189-20110916_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.2,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1104_128_S_0310-20061030_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 83.4,
+            "MMSE": 24.0
+        },
+        {
+            "sMRI": "sMRI/0218_014_S_4058-20110526_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 84.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0723_067_S_2196-20110606_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 68.9,
+            "MMSE": 29.0
+        },
+        {
+            "sMRI": "sMRI/0763_068_S_2248-20110712_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 76.7,
+            "MMSE": 28.0
+        },
+        {
+            "sMRI": "sMRI/0332_022_S_2263-20110823_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 62.8,
+            "MMSE": 30.0
+        },
+        {
+            "sMRI": "sMRI/0363_023_S_2068-20110502_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 83.9,
+            "MMSE": 23.0
+        },
+        {
+            "sMRI": "sMRI/0341_022_S_4805-20120703_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 72.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0585_037_S_2103-20101020_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 61.0,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1369_168_S_6921-20210406_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 76.6,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0517_035_S_4783-20120702_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 83.3,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0825_072_S_4613-20120402_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 67.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0572_036_S_5149-20130415_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 84.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0508_035_S_2192-20101208_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 73.4,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/1338_153_S_4838-20120718_mniBrain_removeEdge.nii.gz",
+            "label": 0,
+            "Age": 75.7,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0282_018_S_5074-20130215_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 74.9,
+            "MMSE": -1.0
+        },
+        {
+            "sMRI": "sMRI/0286_019_S_4252-20110928_mniBrain_removeEdge.nii.gz",
+            "label": 1,
+            "Age": 86.6,
+            "MMSE": -1.0
+        }
+    ],
+    "add_train_list": []
+}
