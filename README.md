@@ -54,19 +54,19 @@ The preprocess example can be seen in folder "preprocess_example"，and it will 
 
 ## 4. training
 
-You have to train with several params in the file "train_SMRI_age.py". For example, you can train with the command below.
+You have to train with several params in the file "train.py". For example, you can train with the command below.
 
 ```cmd
-python train_SMRI_age.py --model PktNet --num_classes 2 --json_path data/pureSMRI_1207_threeStage/twoClass_5Fold/CNvsAD/fiveFold_3.json
+python train.py --model PktNet --num_classes 2 --json_path data/pureSMRI_1207_threeStage/twoClass_5Fold/CNvsAD/fiveFold_3.json
 ```
 
-## 5. testing By Pths
+## 5. testing
 
 The result of our work is shown in folder "experiment_result". It can be downloaded from the link: https://pan.baidu.com/s/1DAXxfwrEKUPu1NvGPc2jcw?pwd=1688
 You can modify the default pth path in file "testBySavedPth.py" and other params to test the model, and run the command below.
 
 ```cmd
-python testBySavedPth.py
+python test.py
 ```
 
 ## 6. explain

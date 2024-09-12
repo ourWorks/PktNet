@@ -1,5 +1,3 @@
-# 复制自 https://blog.csdn.net/zhanxiaohai/article/details/123851624
-
 import logging
 from datetime import datetime
 

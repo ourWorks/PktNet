@@ -4,12 +4,9 @@
 
 import csv
 import gc
-# from preprocess.region_pureSMRI import ADNIlist
 from datasetWithLoader.adni_pureSMRI import ADNIlist
 import torch
-
 import torch.nn as nn
-
 import os
 import pandas as pd
 import torch.nn.functional as F
@@ -22,19 +19,10 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 import argparse
 from configs.several_log import get_logger
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-
 # 检查是否出现nan
 # torch.autograd.set_detect_anomaly(True)
-
 from lightning.pytorch import Trainer, seed_everything
 seed_everything(42, workers=True)
-
-# sets seeds for numpy, torch and python.random.
-
-# trainer = Trainer(deterministic="warn")
-
-# # trainer = Trainer(deterministic=True)
-# trainer = Trainer(deterministic="warn") # 在不支持确定性模型（deterministic mode）的时候，打印警告
 
 
 class Recorder:
