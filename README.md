@@ -63,7 +63,7 @@ python train.py --model PktNet --num_classes 2 --json_path data/pureSMRI_1207_th
 ## 5. testing
 
 The result of our work is shown in folder "experiment_result". It can be downloaded from the link: https://pan.baidu.com/s/1DAXxfwrEKUPu1NvGPc2jcw?pwd=1688
-You can modify the default pth path in file "testBySavedPth.py" and other params to test the model, and run the command below.
+You can modify the default pth path in file "test.py" and other params to test the model, and run the command below.
 
 ```cmd
 python test.py
