@@ -8,6 +8,12 @@ All used imageIds are listed in "dataset/imageIds.txt". After copying one of the
 
 ## 2. preprocessing
 
+![Alt text](images/preprocess.png)
+
+**Fig. 3. Schematic diagram of data preprocessing. The input data is the original
+SMRI scan file, and the output is the image of the standard brain in the
+MNI152 space with the surrounding excess removed.**
+
 The editor can access the processed files through the following link. 
 **The password is a combination of the first letters of the first four words in the article title, all in lowercase.**
 
