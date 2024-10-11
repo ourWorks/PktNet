@@ -77,4 +77,5 @@ python test.py
 
 ## 6. explain
 
+![Alt text](images/visualization.png)
 The explain module will be uploaded soon. **We will upload a video to show our work end-to-end after the paper is accepted.**
