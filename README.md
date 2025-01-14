@@ -14,10 +14,7 @@ All used imageIds are listed in "dataset/imageIds.txt". After copying one of the
 SMRI scan file, and the output is the image of the standard brain in the
 MNI152 space with the surrounding excess removed.**
 
-The editor can access the processed files through the following link. 
-**The password is a combination of the first letters of the first four words in the article title, all in lowercase.**
-
-https://pan.baidu.com/s/1VStSEheMZ1k1Ql0siyNx8A
+**Due to the data protocol, we are unable to release the ADNI dataset here. You can get the data via the ADNI external data submissions within their systems.**
 
 First, download oral SMRIs data and extract them in folder "1_downloadSearchCSVByimageIds_and_diagnosisCSV".
 Second, combine the CSV files to generate the label in folder "2_getLabelFromLastTwoCsvs".
